@@ -12,7 +12,3 @@ Once you imported the profiles to vATIS, the profiles are automatically updated,
 Documentation: https://vatis.app/docs/  
 
 Note: The Profiles are automatically updated, whenever you launch vATIS and an update is available.  
-
-## Profile files
-- [vATIS_Profile_-_EDWW_CTR_APP.json](vATIS_Profile_-_EDWW_CTR_APP.json): vATIS Profile for Radar Controllers covering a station top-down.
-- [vATIS_Profile_-_EDWW_TWR.json](vATIS_Profile_-_EDWW_TWR.json): vATIS Profile for Tower Controllers
