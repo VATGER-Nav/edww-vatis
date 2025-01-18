@@ -2,8 +2,12 @@ name: Update Serial
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'EDWW AUTO ATIS.json'
+      
+permissions: write-all
 
 jobs:
   update-serial:
