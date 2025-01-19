@@ -6,7 +6,7 @@ Once you imported the profiles to vATIS, the profiles are automatically updated,
 
 ## Getting Started as Controller
 1. Download vATIS 4.1.0-beta7+ from https://vatis.app/  
-2. Download the [Profile(s)](#profile-files)
+2. Download the [Profile](https://github.com/VATGER-Nav/edww-vatis/releases). 
 3. Import Profile to vATIS  
 4. Start using vATIS  
 Documentation: https://vatis.app/docs/  
