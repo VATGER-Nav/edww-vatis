@@ -474,8 +474,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -577,7 +577,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ. CHECK CHARTS FOR FREQUENCY",
+                    "text": "@DEPFREQ. CHECK CHARTS FOR FREQUENCY.",
                     "ordinal": 2,
                     "enabled": true
                 },
@@ -1004,8 +1004,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -1516,8 +1516,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -2023,8 +2023,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -2515,8 +2515,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -3073,8 +3073,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "EDDV_09R_AND_09L_ACTIVE",
@@ -3555,8 +3555,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -4061,8 +4061,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
