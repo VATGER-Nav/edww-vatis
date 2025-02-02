@@ -4366,7 +4366,7 @@
                     },
                     "template": {
                         "text": "{weather}",
-                        "voice": "{weather}"
+                        "voice": "PRESENT WEATHER {weather}"
                     }
                 },
                 "recentWeather": {
@@ -4491,7 +4491,7 @@
                     "autoIncludeClosingStatement": true,
                     "template": {
                         "text": ".",
-                        "voice": "BERLIN BRANDENBURG INFORMATION {letter|word} OUT"
+                        "voice": "INFORMATION {letter|word} OUT"
                     }
                 }
             },
@@ -4641,8 +4641,8 @@
                 },
                 {
                     "variableName": "ACTIVE_06R_06L",
-                    "text": "RWY 06R 06L",
-                    "voice": "RUNWAYS IN USE ^06R AND ^06L."
+                    "text": "RWY 06L 06R",
+                    "voice": "RUNWAYS IN USE ^06L AND ^06R."
                 },
                 {
                     "variableName": "ACTIVE_24R_24L",
