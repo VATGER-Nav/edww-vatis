@@ -2064,6 +2064,11 @@
           "variableName": "ACTIVE_LDG15_TKOF33",
           "text": "LDG 15 TKOF 33",
           "voice": "RUNWAYS IN USE FOR LANDING ^15 AND TAKEOFF ^33."
+        },
+        {
+          "variableName": "ACTIVE_LDG05_TKOF15",
+          "text": "LDG 05 TKOF 15",
+          "voice": "RUNWAYS IN USE FOR LANDING ^05 AND TAKEOFF ^15."
         }
       ],
       "airportConditionDefinitions": [
