@@ -3,7 +3,7 @@
     "name": "EDWW ATIS 13 Feb 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2025011902,
+    "updateSerial": 2025021301,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
@@ -3044,26 +3044,26 @@
                         "enabled": false
                     }
                 },
-				{
-				"id": "c5fc02af-5991-4073-98a4-31617c441650",
-				"name": "DEP 09R ARR 09L (LVP Config)",
-				"airportConditions": "",
-				"notams": "",
-				"template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 09L.\r\n@EDDV_09R_AND_09L_ACTIVE\r\nDEPARTURES EXPECT RWY ^09R.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
-				"externalGenerator": {
-					"enabled": false
-					}
-				},
-				{
-				"id": "168b1328-5529-45d2-91b9-5f9ce967f4e1",
-				"name": "DEP 27L ARR 27R (LVP Config)",
-				"airportConditions": "",
-				"notams": "",
-				"template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 27R.\r\n@EDDV_27R_AND_27L_ACTIVE\r\nDEPARTURES EXPECT RWY ^27L.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
-				"externalGenerator": {
-					"enabled": false
-					}
-				}
+                {
+                    "id": "c5fc02af-5991-4073-98a4-31617c441650",
+                    "name": "DEP 09R ARR 09L (LVP Config)",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 09L.\r\n@EDDV_09R_AND_09L_ACTIVE\r\nDEPARTURES EXPECT RWY ^09R.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "168b1328-5529-45d2-91b9-5f9ce967f4e1",
+                    "name": "DEP 27L ARR 27R (LVP Config)",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 27R.\r\n@EDDV_27R_AND_27L_ACTIVE\r\nDEPARTURES EXPECT RWY ^27L.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                }
             ],
             "contractions": [
                 {
