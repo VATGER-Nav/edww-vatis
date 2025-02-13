@@ -22,13 +22,10 @@ def main():
         new_serial = int(today) * 100 + 1
 
     data["updateSerial"] = new_serial
-    data["name"] = f"EDWW ATIS {datetime.now().strftime('%d %b %Y')}"
-
     with open(file_path, "w") as f:
         json.dump(data, f, indent=4)
 
     print(f"Updated Serial to {new_serial}")
-    print(f"Updated Name to {data['name']}")
 
 if __name__ == "__main__":
     main()
