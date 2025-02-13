@@ -1,8 +1,8 @@
 {
     "version": 1,
-    "name": "EDWW ATIS 19 Jan 2025",
+    "name": "EDWW ATIS 13 Feb 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
-    "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW AUTO ATIS.json",
+    "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
     "updateSerial": 2025011902,
     "stations": [
         {
@@ -474,8 +474,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -577,7 +577,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ. CHECK CHARTS FOR FREQUENCY",
+                    "text": "@DEPFREQ. CHECK CHARTS FOR FREQUENCY.",
                     "ordinal": 2,
                     "enabled": true
                 },
@@ -1004,8 +1004,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -1516,8 +1516,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -2023,8 +2023,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -2515,8 +2515,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -3043,7 +3043,27 @@
                     "externalGenerator": {
                         "enabled": false
                     }
-                }
+                },
+				{
+				"id": "c5fc02af-5991-4073-98a4-31617c441650",
+				"name": "DEP 09R ARR 09L (LVP Config)",
+				"airportConditions": "",
+				"notams": "",
+				"template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 09L.\r\n@EDDV_09R_AND_09L_ACTIVE\r\nDEPARTURES EXPECT RWY ^09R.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+				"externalGenerator": {
+					"enabled": false
+					}
+				},
+				{
+				"id": "168b1328-5529-45d2-91b9-5f9ce967f4e1",
+				"name": "DEP 27L ARR 27R (LVP Config)",
+				"airportConditions": "",
+				"notams": "",
+				"template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 27R.\r\n@EDDV_27R_AND_27L_ACTIVE\r\nDEPARTURES EXPECT RWY ^27L.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+				"externalGenerator": {
+					"enabled": false
+					}
+				}
             ],
             "contractions": [
                 {
@@ -3073,8 +3093,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "EDDV_09R_AND_09L_ACTIVE",
@@ -3555,8 +3575,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -4061,8 +4081,8 @@
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR CLR ON BREMEN RDR ",
-                    "voice": "REQUEST IFR CLEARANCE ON BREMEN RADAR"
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "ADV",
@@ -4366,7 +4386,7 @@
                     },
                     "template": {
                         "text": "{weather}",
-                        "voice": "{weather}"
+                        "voice": "PRESENT WEATHER {weather}"
                     }
                 },
                 "recentWeather": {
@@ -4491,7 +4511,7 @@
                     "autoIncludeClosingStatement": true,
                     "template": {
                         "text": ".",
-                        "voice": "BERLIN BRANDENBURG INFORMATION {letter|word} OUT"
+                        "voice": "INFORMATION {letter|word} OUT"
                     }
                 }
             },
@@ -4641,8 +4661,8 @@
                 },
                 {
                     "variableName": "ACTIVE_06R_06L",
-                    "text": "RWY 06R 06L",
-                    "voice": "RUNWAYS IN USE ^06R AND ^06L."
+                    "text": "RWY 06L 06R",
+                    "voice": "RUNWAYS IN USE ^06L AND ^06R."
                 },
                 {
                     "variableName": "ACTIVE_24R_24L",
