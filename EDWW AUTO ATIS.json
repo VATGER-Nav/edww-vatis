@@ -479,8 +479,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
                     "variableName": "ACTIVE_LDG23_TKOF33",
@@ -1009,8 +1009,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
                     "variableName": "ACTIVE_25",
@@ -1521,8 +1521,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
                     "variableName": "ACTIVE_23",
@@ -2028,8 +2028,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
                     "variableName": "ACTIVE_32",
@@ -2520,8 +2520,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
                     "variableName": "ACTIVE_27",
@@ -3123,8 +3123,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 }
             ],
             "airportConditionDefinitions": [
@@ -3580,8 +3580,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
                     "variableName": "ACTIVE_26",
@@ -4086,8 +4086,8 @@
                 },
                 {
                     "variableName": "ADV",
-                    "text": "WHEN AIRBORNE CTC ADVISORY",
-                    "voice": "WHEN AIRBORNE CONTACT ADVISORY"
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
+                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
                     "variableName": "ACTIVE_23",
