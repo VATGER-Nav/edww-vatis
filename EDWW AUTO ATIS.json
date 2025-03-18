@@ -1,9 +1,9 @@
 {
     "version": 1,
-    "name": "EDWW ATIS 16 Mar 2025",
+    "name": "EDWW ATIS 17 Mar 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2025031601,
+    "updateSerial": 2025031702,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
@@ -567,7 +567,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 119.510.",
+                    "text": "@DEPFREQ 120.540.",
                     "ordinal": 2,
                     "enabled": true
                 },
@@ -592,12 +592,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.510.",
+                    "text": "@IFR_CLR 120.540.",
                     "ordinal": 6,
                     "enabled": false
                 },
@@ -612,7 +612,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -1087,7 +1087,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 119.510.",
+                    "text": "@DEPFREQ 120.540.",
                     "ordinal": 2,
                     "enabled": false
                 },
@@ -1102,12 +1102,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.510.",
+                    "text": "@IFR_CLR 120.540.",
                     "ordinal": 6,
                     "enabled": false
                 },
@@ -1122,7 +1122,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -1589,7 +1589,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 119.510.",
+                    "text": "@DEPFREQ 120.540.",
                     "ordinal": 2,
                     "enabled": false
                 },
@@ -1614,12 +1614,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.510.",
+                    "text": "@IFR_CLR 120.540.",
                     "ordinal": 6,
                     "enabled": false
                 },
@@ -1634,7 +1634,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -2101,7 +2101,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
@@ -2116,7 +2116,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -2608,7 +2608,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
@@ -2628,7 +2628,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -3161,12 +3161,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.655.",
+                    "text": "@DEPFREQ 124.240.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
@@ -3181,12 +3181,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.655.",
+                    "text": "@IFR_CLR 124.240.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -3663,12 +3663,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.655.",
+                    "text": "@DEPFREQ 124.240.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
@@ -3683,12 +3683,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.655.",
+                    "text": "@IFR_CLR 124.240.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -4149,12 +4149,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.655.",
+                    "text": "@DEPFREQ 124.240.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 120.225.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 5,
                     "enabled": false
                 },
@@ -4164,12 +4164,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.655.",
+                    "text": "@IFR_CLR 124.240.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.225.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 9,
                     "enabled": false
                 }
