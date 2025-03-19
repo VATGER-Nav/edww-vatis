@@ -1974,7 +1974,7 @@
                     "autoIncludeClosingStatement": true,
                     "template": {
                         "text": ".",
-                        "voice": "ROSTOCK-LAAR GEH INFORMATION {letter|word} OUT"
+                        "voice": "SYLT INFORMATION {letter|word} OUT"
                     }
                 }
             },
@@ -5085,7 +5085,7 @@
                     "autoIncludeClosingStatement": true,
                     "template": {
                         "text": ".",
-                        "voice": "ROSTOCK-LAAGE INFORMATION {letter|word} OUT"
+                        "voice": "ROSTOCK-LAAR GEH INFORMATION {letter|word} OUT"
                     }
                 }
             },
