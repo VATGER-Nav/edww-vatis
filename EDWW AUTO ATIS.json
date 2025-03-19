@@ -235,20 +235,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -843,20 +843,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -1353,20 +1353,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -1865,20 +1865,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -2347,20 +2347,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -2471,7 +2471,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORED [ARPT_COND].\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2479,9 +2479,9 @@
                 {
                     "id": "f57f34cc-d164-4baa-a31e-ab8a23192684",
                     "name": "RWY 09",
-                    "airportConditions": "EXPECT ILS *Z APPROACH RUNWAY 09... RUNWAY IN USE 09...",
+                    "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORED [ARPT_COND].\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2531,22 +2531,22 @@
                 {
                     "variableName": "ILS_Z",
                     "text": "ILS Z APCH",
-                    "voice": "FOR ILS ZULU APPROACH."
+                    "voice": "ILS ZULU APPROACH."
                 },
                 {
                     "variableName": "ILS_Y",
                     "text": "ILS Y APCH",
-                    "voice": "FOR ILS YANKEE APPROACH."
+                    "voice": "ILS YANKEE APPROACH."
                 },
                 {
                     "variableName": "RNP",
                     "text": "RNP APCH",
-                    "voice": "FOR RNP APPROACH."
+                    "voice": "RNP APPROACH."
                 },
                 {
                     "variableName": "VOR",
                     "text": "VOR APCH",
-                    "voice": "FOR VOR APPROACH."
+                    "voice": "VOR APPROACH."
                 }
             ],
             "airportConditionDefinitions": [
@@ -2859,20 +2859,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -3427,20 +3427,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -3929,20 +3929,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -4410,20 +4410,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -4970,20 +4970,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
