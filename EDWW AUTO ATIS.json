@@ -1,9 +1,9 @@
 {
     "version": 1,
-    "name": "EDWW ATIS 20 Mar 2025",
+    "name": "EDWW ATIS 19 Mar 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2025031801,
+    "updateSerial": 2025031901,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
@@ -3143,16 +3143,16 @@
                     "ordinal": 3,
                     "enabled": false
                 },
-        	{
+                {
                     "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^09L.",
                     "ordinal": 4,
                     "enabled": false
-        	},
-        	{
+                },
+                {
                     "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^27R.",
                     "ordinal": 5,
                     "enabled": false
-        	}
+                }
             ],
             "notamDefinitions": [
                 {
@@ -5095,13 +5095,13 @@
             },
             "presets": [
                 {
-          "id": "5d82d8a8-79c3-4e03-a578-050466e2c567",
-          "name": "ANY RWY",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@ETNL [ATIS_CODE]. [TIME]. \r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false
+                    "id": "5d82d8a8-79c3-4e03-a578-050466e2c567",
+                    "name": "ANY RWY",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "@ETNL [ATIS_CODE]. [TIME]. \r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+                    "externalGenerator": {
+                        "enabled": false
                     }
                 }
             ],
