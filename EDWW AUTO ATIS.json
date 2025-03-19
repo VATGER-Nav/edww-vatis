@@ -577,11 +577,6 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ. CHECK CHARTS FOR FREQUENCY.",
-                    "ordinal": 2,
-                    "enabled": true
-                },
-                {
                     "text": "@DEPFREQ 126.325.",
                     "ordinal": 3,
                     "enabled": false
