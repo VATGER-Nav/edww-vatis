@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "EDWW ATIS 18 Mar 2025",
+    "name": "EDWW ATIS 20 Mar 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
     "updateSerial": 2025031801,
@@ -3142,7 +3142,17 @@
                     "text": "@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 3,
                     "enabled": false
-                }
+                },
+        	{
+                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^09L.",
+                    "ordinal": 4,
+                    "enabled": false
+        	},
+        	{
+                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^27R.",
+                    "ordinal": 5,
+                    "enabled": false
+        	}
             ],
             "notamDefinitions": [
                 {
@@ -5085,23 +5095,13 @@
             },
             "presets": [
                 {
-                    "id": "5d82d8a8-79c3-4e03-a578-050466e2c567",
-                    "name": "RWY 09",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "@ETNL [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@ACTIVE_09\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "73901b20-b432-472b-92cc-061fc759e23e",
-                    "name": "RWY 27",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "@ETNL [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
-                    "externalGenerator": {
-                        "enabled": false
+          "id": "5d82d8a8-79c3-4e03-a578-050466e2c567",
+          "name": "ANY RWY",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@ETNL [ATIS_CODE]. [TIME]. \r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
                     }
                 }
             ],
@@ -5109,7 +5109,7 @@
                 {
                     "variableName": "ETNL",
                     "text": "ATIS ETNL",
-                    "voice": "THIS IS ROSTOCK-LAAGE INFORMATION"
+                    "voice": "THIS IS ROSTOCK-LAAGE AIRPORT INFORMATION"
                 },
                 {
                     "variableName": "ACTIVE_09",
