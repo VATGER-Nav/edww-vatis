@@ -3,7 +3,7 @@
     "name": "EDWW ATIS 19 Mar 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2025031902,
+    "updateSerial": 2025031904,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
@@ -235,20 +235,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -351,7 +351,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -843,20 +844,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -959,7 +960,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -1353,20 +1355,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -1469,7 +1471,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -1865,20 +1868,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -1971,7 +1974,7 @@
                     "autoIncludeClosingStatement": true,
                     "template": {
                         "text": ".",
-                        "voice": "ROSTOCK-LAAGE INFORMATION {letter|word} OUT"
+                        "voice": "ROSTOCK-LAAR GEH INFORMATION {letter|word} OUT"
                     }
                 }
             },
@@ -1981,7 +1984,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -2347,20 +2351,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -2463,7 +2467,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -2471,7 +2476,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORED [ARPT_COND].\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2479,9 +2484,9 @@
                 {
                     "id": "f57f34cc-d164-4baa-a31e-ab8a23192684",
                     "name": "RWY 09",
-                    "airportConditions": "EXPECT ILS *Z APPROACH RUNWAY 09... RUNWAY IN USE 09...",
+                    "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORED [ARPT_COND].\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2531,22 +2536,22 @@
                 {
                     "variableName": "ILS_Z",
                     "text": "ILS Z APCH",
-                    "voice": "FOR ILS ZULU APPROACH."
+                    "voice": "ILS ZULU APPROACH."
                 },
                 {
                     "variableName": "ILS_Y",
                     "text": "ILS Y APCH",
-                    "voice": "FOR ILS YANKEE APPROACH."
+                    "voice": "ILS YANKEE APPROACH."
                 },
                 {
                     "variableName": "RNP",
                     "text": "RNP APCH",
-                    "voice": "FOR RNP APPROACH."
+                    "voice": "RNP APPROACH."
                 },
                 {
                     "variableName": "VOR",
                     "text": "VOR APCH",
-                    "voice": "FOR VOR APPROACH."
+                    "voice": "VOR APPROACH."
                 }
             ],
             "airportConditionDefinitions": [
@@ -2859,20 +2864,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -2976,7 +2981,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -3427,20 +3433,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -3543,7 +3549,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -3929,20 +3936,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -4045,7 +4052,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -4410,20 +4418,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -4527,7 +4535,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -4970,20 +4979,20 @@
                     },
                     "types": {
                         "FEW": {
-                            "text": "FEW{altitude}",
-                            "voice": "few {altitude}"
+                            "text": "FEW{altitude}{convective}",
+                            "voice": "few {altitude} feet {convective}"
                         },
                         "SCT": {
                             "text": "SCT{altitude}{convective}",
-                            "voice": "scattered {convective} {altitude}"
+                            "voice": "scattered {altitude} feet {convective}"
                         },
                         "BKN": {
                             "text": "BKN{altitude}{convective}",
-                            "voice": "broken {convective} {altitude}"
+                            "voice": "broken {altitude} feet {convective}"
                         },
                         "OVC": {
                             "text": "OVC{altitude}{convective}",
-                            "voice": "overcast {convective} {altitude}"
+                            "voice": "overcast {altitude} feet {convective}"
                         },
                         "VV": {
                             "text": "VV{altitude}",
@@ -5086,7 +5095,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -5104,7 +5114,7 @@
                 {
                     "variableName": "ETNL",
                     "text": "ATIS ETNL",
-                    "voice": "THIS IS ROSTOCK-LAAGE AIRPORT INFORMATION"
+                    "voice": "THIS IS ROSTOCK-LAAR GEH AIRPORT INFORMATION"
                 },
                 {
                     "variableName": "ACTIVE_09",
