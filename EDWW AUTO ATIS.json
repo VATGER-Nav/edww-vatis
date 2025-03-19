@@ -351,7 +351,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -959,7 +960,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -1469,7 +1471,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -1971,7 +1974,7 @@
                     "autoIncludeClosingStatement": true,
                     "template": {
                         "text": ".",
-                        "voice": "ROSTOCK-LAAGE INFORMATION {letter|word} OUT"
+                        "voice": "ROSTOCK-LAAR GEH INFORMATION {letter|word} OUT"
                     }
                 }
             },
@@ -1981,7 +1984,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -2463,7 +2467,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -2976,7 +2981,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -3543,7 +3549,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -4045,7 +4052,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -4527,7 +4535,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -5086,7 +5095,8 @@
             "useDecimalTerminology": true,
             "atisVoice": {
                 "useTextToSpeech": true,
-                "voice": "UK Male"
+                "voice": "UK Male",
+                "speechRate": 150
             },
             "presets": [
                 {
@@ -5104,7 +5114,7 @@
                 {
                     "variableName": "ETNL",
                     "text": "ATIS ETNL",
-                    "voice": "THIS IS ROSTOCK-LAAGE AIRPORT INFORMATION"
+                    "voice": "THIS IS ROSTOCK-LAAR GEH AIRPORT INFORMATION"
                 },
                 {
                     "variableName": "ACTIVE_09",
