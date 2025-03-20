@@ -62,7 +62,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
@@ -671,7 +671,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
@@ -1182,7 +1182,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
@@ -1695,7 +1695,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
@@ -2168,7 +2168,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
@@ -2681,7 +2681,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
@@ -3250,7 +3250,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": " CALM"
@@ -3763,7 +3763,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": " CALM"
@@ -4255,7 +4255,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
@@ -4816,7 +4816,7 @@
                         }
                     },
                     "calm": {
-                        "calmWindSpeed": 2,
+                        "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
                             "voice": "WIND CALM"
