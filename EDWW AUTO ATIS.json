@@ -565,51 +565,61 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "@DEPFREQ 120.540.",
                     "ordinal": 2,
-                    "enabled": true
-                },
-                {
-                    "text": "@DEPFREQ 134.225.",
-                    "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 134.255.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.855.",
+                    "text": "@DEPFREQ 126.325.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 125.855.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.540.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855.",
+                    "text": "@IFR_CLR 120.540.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 126.325.",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 125.855.",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675.",
+                    "ordinal": 11,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 12,
                     "enabled": false
                 }
             ]
@@ -1081,7 +1091,7 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "@DEPFREQ 120.540.",
@@ -1104,23 +1114,33 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.540.",
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@IFR_CLR 120.540.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855.",
+                    "text": "@IFR_CLR 126.325.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 125.855.",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675.",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 11,
                     "enabled": false
                 }
             ]
@@ -1584,7 +1604,7 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "@DEPFREQ 120.540.",
@@ -1592,48 +1612,53 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 134.225.",
-                    "ordinal": 2,
-                    "enabled": false
-                },
-                {
-                    "text": "@DEPFREQ. CHECK CHARTS FOR FREQUENCY",
-                    "ordinal": 2,
-                    "enabled": true
-                },
-                {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 134.255.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.855.",
+                    "text": "@DEPFREQ 126.325.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 125.855.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.540.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855.",
+                    "text": "@IFR_CLR 120.540.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 126.325.",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 125.855.",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675.",
+                    "ordinal": 11,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 12,
                     "enabled": false
                 }
             ]
@@ -2087,7 +2112,7 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "@DEPFREQ 124.075.",
@@ -2101,6 +2126,11 @@
                 },
                 {
                     "text": "@DEPFREQ 127.675.",
+                    "ordinal": 4,
+                    "enabled": false
+                },
+                {
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 5,
                     "enabled": false
                 },
@@ -2116,8 +2146,13 @@
                 },
                 {
                     "text": "@IFR_CLR 127.675.",
-                    "ordinal": 9,
+                    "ordinal": 8,
                     "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 9,
+                    "enabled": true
                 }
             ]
         },
@@ -2590,7 +2625,7 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "@DEPFREQ 124.800.",
@@ -2599,12 +2634,12 @@
                 },
                 {
                     "text": "@DEPFREQ 124.075.",
-                    "ordinal": 2,
+                    "ordinal": 3,
                     "enabled": false
                 },
                 {
                     "text": "@DEPFREQ 126.325.",
-                    "ordinal": 3,
+                    "ordinal": 4,
                     "enabled": false
                 },
                 {
@@ -2613,23 +2648,33 @@
                     "enabled": false
                 },
                 {
+                    "text": "@DEPFREQ 133.725.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
                     "text": "@IFR_CLR 124.800.",
-                    "ordinal": 6,
-                    "enabled": false
-                },
-                {
-                    "text": "@IFR_CLR 124.075.",
-                    "ordinal": 6,
-                    "enabled": false
-                },
-                {
-                    "text": "@IFR_CLR 126.325.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 124.075.",
+                    "ordinal": 8,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 126.325.",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675.",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 11,
                     "enabled": false
                 }
             ]
@@ -3159,7 +3204,7 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "@DEPFREQ 119.490.",
@@ -3167,12 +3212,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 128.760.",
+                    "text": "@DEPFREQ 124.240.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 124.240.",
+                    "text": "@DEPFREQ 125.025.",
                     "ordinal": 4,
                     "enabled": false
                 },
@@ -3182,12 +3227,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.490.",
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 128.760.",
+                    "text": "@IFR_CLR 119.490.",
                     "ordinal": 7,
                     "enabled": false
                 },
@@ -3197,8 +3242,18 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 125.025.",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675.",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 11,
                     "enabled": false
                 }
             ]
@@ -3662,7 +3717,7 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "@DEPFREQ 119.490.",
@@ -3670,12 +3725,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 128.760.",
+                    "text": "@DEPFREQ 124.240.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 124.240.",
+                    "text": "@DEPFREQ 125.025.",
                     "ordinal": 4,
                     "enabled": false
                 },
@@ -3685,12 +3740,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.490.",
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 128.760.",
+                    "text": "@IFR_CLR 119.490.",
                     "ordinal": 7,
                     "enabled": false
                 },
@@ -3700,8 +3755,18 @@
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 125.025.",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675.",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 11,
                     "enabled": false
                 }
             ]
@@ -4154,35 +4219,45 @@
                 {
                     "text": "@ADV 122.800.",
                     "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "@DEPFREQ 124.240.",
+                    "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 128.760.",
+                    "text": "@DEPFREQ 125.025.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 124.240.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 128.760.",
+                    "text": "@IFR_CLR 124.240.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 125.025.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.240.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 133.725.",
                     "ordinal": 9,
                     "enabled": false
                 }
