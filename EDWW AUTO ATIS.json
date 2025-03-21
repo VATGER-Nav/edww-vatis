@@ -475,12 +475,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN PASSING 2000 FT CTC BREMEN RDR",
+                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR",
                     "voice": "WHEN PASSING *2000 FEET CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
@@ -1011,12 +1011,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CTC BREMEN RDR",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
                     "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
@@ -1534,12 +1534,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CTC BREMEN RDR",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
                     "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
@@ -2047,12 +2047,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CTC BREMEN RDR",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
                     "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
@@ -2082,16 +2082,6 @@
                 }
             ],
             "airportConditionDefinitions": [
-                {
-                    "text": "@ILS",
-                    "ordinal": 1,
-                    "enabled": true
-                },
-                {
-                    "text": "@RNP",
-                    "ordinal": 2,
-                    "enabled": false
-                },
                 {
                     "text": "@LVTO_14",
                     "ordinal": 3,
@@ -2545,12 +2535,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CTC BREMEN RDR",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
                     "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
@@ -3139,12 +3129,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CTC BREMEN RDR",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
                     "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
@@ -3642,12 +3632,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CTC BREMEN RDR",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
                     "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
@@ -4169,12 +4159,12 @@
                 },
                 {
                     "variableName": "DEPFREQ",
-                    "text": "WHEN PASSING 2500 FT CTC BREMEN RDR",
+                    "text": "WHEN PASSING 2500 FT CONTACT BREMEN RADAR",
                     "voice": "WHEN *2500 FEET CONTACT BREMEN RADAR"
                 },
                 {
                     "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RDR ",
+                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
