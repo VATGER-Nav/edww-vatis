@@ -1,9 +1,9 @@
 {
     "version": 1,
-    "name": "EDWW ATIS 21 Mar 2025",
+    "name": "EDWW ATIS 20 Mar 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2025032101,
+    "updateSerial": 2025032006,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
@@ -509,6 +509,16 @@
                     "voice": "RUNWAYS IN USE FOR LANDING ^15 AND TAKEOFF ^05."
                 },
                 {
+                    "variableName": "ACTIVE_LDG15_TKOF33",
+                    "text": "LDG 15 TKOF 33",
+                    "voice": "RUNWAYS IN USE FOR LANDING ^15 AND TAKEOFF ^33."
+                },
+                {
+                    "variableName": "ACTIVE_LDG05_TKOF15",
+                    "text": "LDG 05 TKOF 15",
+                    "voice": "RUNWAYS IN USE FOR LANDING ^05 AND TAKEOFF ^15."
+                },
+                {
                     "variableName": "ACTIVE_05_SINGLE",
                     "text": "RWY 05",
                     "voice": "RUNWAY IN USE ^05."
@@ -537,11 +547,6 @@
                     "variableName": "RNP",
                     "text": "RNP APCH",
                     "voice": "FOR RNP APPROACH."
-                },
-                {
-                    "variableName": "ACTIVE_LDG15_TKOF33",
-                    "text": "LDG 15 TKOF 33",
-                    "voice": "RUNWAYS IN USE FOR LANDING ^15 AND TAKEOFF ^33."
                 }
             ],
             "airportConditionDefinitions": [
