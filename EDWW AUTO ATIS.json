@@ -2549,6 +2549,11 @@
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY"
                 },
                 {
+                    "variableName": "GND",
+                    "text": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121.755",
+                    "voice": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121,755"
+                },
+                {
                     "variableName": "ACTIVE_27",
                     "text": "RWY 27",
                     "voice": "RUNWAY IN USE ^27."
@@ -2613,58 +2618,63 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@GND",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 124.800.",
+                    "text": "@ADV 122.800.",
                     "ordinal": 2,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 124.075.",
+                    "text": "@DEPFREQ 124.800.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 124.075.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 126.325.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 127.675.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.800.",
+                    "text": "@DEPFREQ 133.725.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.075.",
+                    "text": "@IFR_CLR 124.800.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@IFR_CLR 124.075.",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 126.325.",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 127.675.",
                     "ordinal": 11,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725.",
+                    "ordinal": 12,
                     "enabled": false
                 }
             ]
