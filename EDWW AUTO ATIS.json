@@ -2004,7 +2004,7 @@
                     "autoIncludeClosingStatement": true,
                     "template": {
                         "text": ".",
-                        "voice": "{letter|word}."
+                        "voice": ". {letter|word}."
                     }
                 }
             },
@@ -2137,7 +2137,7 @@
                 {
                     "text": "@IFR_CLR 133.725.",
                     "ordinal": 9,
-                    "enabled": true
+                    "enabled": false
                 }
             ]
         },
