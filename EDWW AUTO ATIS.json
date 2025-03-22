@@ -386,16 +386,6 @@
                     }
                 },
                 {
-                    "id": "446b43fc-234f-42b1-a322-c6a56c0ac2ce",
-                    "name": "ARR 05 - DEP 15",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_LDG05_TKOF15\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
                     "id": "d4bfc4d0-4a22-4df3-a14d-1cd6b6e985d4",
                     "name": "SINGLE 23",
                     "airportConditions": "",
