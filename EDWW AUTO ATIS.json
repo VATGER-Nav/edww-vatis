@@ -2551,7 +2551,7 @@
                 {
                     "variableName": "GND",
                     "text": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121.755",
-                    "voice": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121,755"
+                    "voice": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121 DECIMAL 755"
                 },
                 {
                     "variableName": "ACTIVE_27",
