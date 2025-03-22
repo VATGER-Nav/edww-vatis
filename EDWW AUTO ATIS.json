@@ -2620,7 +2620,7 @@
                 {
                     "text": "@GND",
                     "ordinal": 1,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "@ADV 122.800.",
