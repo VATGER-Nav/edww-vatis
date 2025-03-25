@@ -7,7 +7,7 @@ on:
       - dev
     paths:
       - 'EDWW AUTO ATIS.json'
-      
+
 permissions: write-all
 
 jobs:
@@ -33,3 +33,5 @@ jobs:
           git add "EDWW AUTO ATIS.json"
           git commit -m "Update Serial & Name"
           git push
+    
+    if: github.repository == 'VATGER-Nav/edww-vatis'
