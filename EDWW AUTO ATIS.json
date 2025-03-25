@@ -3608,7 +3608,7 @@
                     "name": "RWY 26",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDVE [ATIS_CODE]. [TIME]. \r\nEXPECT [ARPT_COND].\r\n@ACTIVE_26\r\n[NOTAMS]\r\n[TL]\r\n@WIND_26 [WIND]\r\nVIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDVE [ATIS_CODE]. [TIME]. \r\nEXPECT [ARPT_COND].\r\n@ACTIVE_26\r\n[NOTAMS]\r\n[TL]\r\n@WIND_26 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
