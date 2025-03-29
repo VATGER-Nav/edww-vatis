@@ -21,7 +21,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "MET REPORT TIME {time} {special}."
                     }
                 },
@@ -635,7 +635,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "MET REPORT TIME {time} {special}."
                     }
                 },
@@ -1156,7 +1156,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "MET REPORT TIME {time} {special}."
                     }
                 },
@@ -1674,7 +1674,7 @@
                         50
                     ],
                     "template": {
-                        "text": "{time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "{time} {special}."
                     }
                 },
@@ -2147,7 +2147,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "MET REPORT TIME {time} {special}."
                     }
                 },
@@ -2685,7 +2685,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "MET REPORT TIME {time} {special}."
                     }
                 },
@@ -3269,7 +3269,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "TIME {time} {special}."
                     }
                 },
@@ -3792,7 +3792,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "TIME {time} {special}."
                     }
                 },
@@ -4294,7 +4294,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "MET REPORT TIME {time} {special}."
                     }
                 },
@@ -4860,7 +4860,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {time} ",
+                        "text": "METAR {day}{time} ",
                         "voice": "MET REPORT TIME {time} {special}."
                     }
                 },
