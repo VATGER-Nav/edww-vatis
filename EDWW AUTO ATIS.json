@@ -22,7 +22,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "MET REPORT TIME {time} {special}."
+                        "voice": ". MET REPORT TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -328,7 +328,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -340,8 +340,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "HAMBURG INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "HAMBURG INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -360,7 +360,7 @@
                     "name": "ARR 23 - DEP 33 (STANDARD CONFIG)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_LDG23_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG23_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -370,7 +370,16 @@
                     "name": "ARR 15 - DEP 23",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_LDG15_TKOF23\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG15_TKOF23\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "d1ee5fc8-d424-48a4-b7dc-bb190825b6ef",
+                    "name": "ARR 15 - DEP 05",
+                    "airportConditions": "",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG15_TKOF05\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -380,7 +389,7 @@
                     "name": "ARR 05 - DEP 33",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_LDG05_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG05_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -390,7 +399,7 @@
                     "name": "SINGLE 23",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_23_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_23_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -400,7 +409,7 @@
                     "name": "SINGLE 33",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_33_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_33_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -409,7 +418,7 @@
                     "id": "ed7a10cb-bfd0-4c7a-aff2-ef004e9c31a9",
                     "name": "SINGLE 05",
                     "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_05_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_05_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -418,7 +427,7 @@
                     "id": "ef04f94c-ffa1-4aed-ab4b-bbc37f857ee6",
                     "name": "SINGLE 15",
                     "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_15_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_15_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -427,16 +436,7 @@
                     "id": "4dc12778-eba8-4e9c-93b4-6902100e5ef9",
                     "name": "ARR 15 - DEP 33 (NIGHT OPS)",
                     "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_LDG15_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
-                    "externalGenerator": {
-                        "enabled": false
-                    }
-                },
-                {
-                    "id": "d1ee5fc8-d424-48a4-b7dc-bb190825b6ef",
-                    "name": "ARR 15 - DEP 05",
-                    "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_LDG15_TKOF05\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG15_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -455,12 +455,12 @@
                 },
                 {
                     "variableName": "LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CAT TWO AND THREE AVAILABLE."
                 },
                 {
                     "variableName": "LVP_WITH_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL",
                     "voice": " LOW-VISIBILITY PROCEDURES IN OPERATION, CAT THREE AND GUIDED TAKE-OFF AVAILABLE."
                 },
                 {
@@ -558,62 +558,62 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 120.540.",
+                    "text": "@DEPFREQ 120.540",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 134.255.",
+                    "text": "@DEPFREQ 134.255",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 126.325",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.855.",
+                    "text": "@DEPFREQ 125.855",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.540.",
+                    "text": "@IFR_CLR 120.540",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@IFR_CLR 126.325",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855.",
+                    "text": "@IFR_CLR 125.855",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 11,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 12,
                     "enabled": false
                 }
@@ -636,7 +636,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "MET REPORT TIME {time} {special}."
+                        "voice": ". MET REPORT TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -942,7 +942,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -954,8 +954,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "LUEBECK INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "LUEBECK INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -973,7 +973,7 @@
                     "id": "8c039e4b-8280-477d-9d2f-2c5c80ed1346",
                     "name": "RWY 25",
                     "airportConditions": "",
-                    "template": "@EDHL [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDHL [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -982,7 +982,7 @@
                     "id": "0e67e0f4-0808-4641-9309-0bcb2d19dbc0",
                     "name": "RWY 07",
                     "airportConditions": "",
-                    "template": "@EDHL [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDHL [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -996,7 +996,7 @@
                 },
                 {
                     "variableName": "LVP",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CAT TWO AVAILABLE"
                 },
                 {
@@ -1041,12 +1041,12 @@
                 },
                 {
                     "variableName": "LVTO_07",
-                    "text": "LOW VIS TAKEOFF PROC RWY 07 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 07 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 07 IN OPERATION."
                 },
                 {
                     "variableName": "LVTO_25",
-                    "text": "LOW VIS TAKEOFF PROC RWY 25 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 25 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 25 IN OPERATION."
                 }
             ],
@@ -1084,57 +1084,57 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 120.540.",
+                    "text": "@DEPFREQ 120.540",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 126.325",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.855.",
+                    "text": "@DEPFREQ 125.855",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.540.",
+                    "text": "@IFR_CLR 120.540",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@IFR_CLR 126.325",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855.",
+                    "text": "@IFR_CLR 125.855",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 11,
                     "enabled": false
                 }
@@ -1157,7 +1157,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "MET REPORT TIME {time} {special}."
+                        "voice": ". MET REPORT TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -1463,7 +1463,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -1475,8 +1475,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "FINKENWERDER INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "FINKENWERDER INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -1495,7 +1495,7 @@
                     "name": "RWY 23",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDHI [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_23\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDHI [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_23\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1505,7 +1505,7 @@
                     "name": "RWY 05",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDHI [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS [ARPT_COND].\r\n@ACTIVE_05\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDHI [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_05\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1519,7 +1519,7 @@
                 },
                 {
                     "variableName": "LVP",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CAT TWO AVAILABLE"
                 },
                 {
@@ -1559,12 +1559,12 @@
                 },
                 {
                     "variableName": "LVTO_05",
-                    "text": "LOW VIS TAKEOFF PROC RWY 05 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 05 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 05 IN OPERATION."
                 },
                 {
                     "variableName": "LVTO_23",
-                    "text": "LOW VIS TAKEOFF PROC RWY 23 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 23 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 23 IN OPERATION."
                 }
             ],
@@ -1597,62 +1597,62 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 120.540.",
+                    "text": "@DEPFREQ 120.540",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 134.255.",
+                    "text": "@DEPFREQ 134.255",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 126.325",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.855.",
+                    "text": "@DEPFREQ 125.855",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.540.",
+                    "text": "@IFR_CLR 120.540",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@IFR_CLR 126.325",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855.",
+                    "text": "@IFR_CLR 125.855",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 11,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 12,
                     "enabled": false
                 }
@@ -1675,7 +1675,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "{time} {special}."
+                        "voice": ". {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -1981,7 +1981,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -1993,7 +1993,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
+                        "text": " ",
                         "voice": ". {letter|word}."
                     }
                 }
@@ -2013,7 +2013,7 @@
                     "name": "RWY 32",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDXW [ATIS_CODE]. [TIME]. \r\n@ACTIVE_32\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDXW [ATIS_CODE] [TIME]\r\n@ACTIVE_32\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2023,7 +2023,7 @@
                     "name": "RWY 14",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDXW [ATIS_CODE]. [TIME]. \r\n@ACTIVE_14\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDXW [ATIS_CODE] [TIME]\r\n@ACTIVE_14\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2062,12 +2062,12 @@
                 },
                 {
                     "variableName": "LVTO_14",
-                    "text": "LOW VIS TAKEOFF PROC RWY 14 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 14 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 14 IN OPERATION."
                 },
                 {
                     "variableName": "LVTO_32",
-                    "text": "LOW VIS TAKEOFF PROC RWY 32 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 32 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 32 IN OPERATION."
                 }
             ],
@@ -2085,47 +2085,47 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 124.075.",
+                    "text": "@DEPFREQ 124.075",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 126.325",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.075.",
+                    "text": "@IFR_CLR 124.075",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@IFR_CLR 126.325",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -2148,7 +2148,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "MET REPORT TIME {time} {special}."
+                        "voice": ". MET REPORT TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -2454,7 +2454,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -2466,8 +2466,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "BREMEN INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "BREMEN INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -2486,7 +2486,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORED [ARPT_COND].\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED [ARPT_COND]\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2496,7 +2496,7 @@
                     "name": "RWY 09",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORED [ARPT_COND].\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED [ARPT_COND]\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2515,12 +2515,12 @@
                 },
                 {
                     "variableName": "LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CAT TWO AND THREE AVAILABLE."
                 },
                 {
                     "variableName": "LVP_WITH_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL",
                     "voice": " LOW-VISIBILITY PROCEDURES IN OPERATION, CAT THREE AND GUIDED TAKE-OFF AVAILABLE."
                 },
                 {
@@ -2613,57 +2613,57 @@
                     "enabled": false
                 },
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 2,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 124.800.",
+                    "text": "@DEPFREQ 124.800",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 124.075.",
+                    "text": "@DEPFREQ 124.075",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325.",
+                    "text": "@DEPFREQ 126.325",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.800.",
+                    "text": "@IFR_CLR 124.800",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.075.",
+                    "text": "@IFR_CLR 124.075",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325.",
+                    "text": "@IFR_CLR 126.325",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 11,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 12,
                     "enabled": false
                 }
@@ -2686,7 +2686,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "MET REPORT TIME {time} {special}."
+                        "voice": ". MET REPORT TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -2992,20 +2992,20 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
                     "template": {
                         "text": "{notams}",
-                        "voice": "{notams}"
+                        "voice": ". {notams}"
                     }
                 },
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "HANNOVER INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "HANNOVER INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -3023,9 +3023,9 @@
                 {
                     "id": "0b8413d2-e70e-4c6b-9185-3ecbe00e629b",
                     "name": "DEP/ARR 27L AND 27R",
-                    "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS.\r\n",
+                    "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS\r\n",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@EDDV_27R_AND_27L_ACTIVE\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]\r\n",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27R_AND_27L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3033,9 +3033,9 @@
                 {
                     "id": "c5615c4f-9f01-441c-bcfe-9fe9c4ce4f04",
                     "name": "DEP/ARR 09L AND 09R",
-                    "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS.",
+                    "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS\r\n",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@EDDV_09R_AND_09L_ACTIVE\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09R_AND_09L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3045,7 +3045,7 @@
                     "name": "SINGLE 27L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@EDDV_27L_ACTIVE\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3055,7 +3055,7 @@
                     "name": "SINGLE 27R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@EDDV_27R_ACTIVE\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27R_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3065,7 +3065,7 @@
                     "name": "SINGLE 09L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@EDDV_09L_ACTIVE\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3075,7 +3075,7 @@
                     "name": "SINGLE 09R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS.\r\n@EDDV_09R_ACTIVE\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09R_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3085,7 +3085,7 @@
                     "name": "DEP 09R ARR 09L (LVP Config)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 09L.\r\n@EDDV_09R_AND_09L_ACTIVE\r\nDEPARTURES EXPECT RWY ^09R.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @RWY09L\r\n@EDDV_09R_AND_09L_ACTIVE\r\nDEPARTURES EXPECT @RWY09R\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3095,7 +3095,7 @@
                     "name": "DEP 27L ARR 27R (LVP Config)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE]. [TIME]. \r\nEXPECT RADAR VECTORS RWY 27R.\r\n@EDDV_27R_AND_27L_ACTIVE\r\nDEPARTURES EXPECT RWY ^27L.\r\n[ARPT_COND] \r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @RWY27R\r\n@EDDV_27R_AND_27L_ACTIVE\r\nDEPARTURES EXPECT @RWY27L\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3108,23 +3108,23 @@
                     "voice": ""
                 },
                 {
+                    "variableName": "VECTORS",
+                    "text": "VECTORS",
+                    "voice": "VECTORS."
+                },
+                {
                     "variableName": "EDDV",
                     "text": "ATIS EDDV",
                     "voice": "THIS IS HANNOVER INFORMATION"
                 },
                 {
-                    "variableName": "EDDV_27R_AND_27L_ACTIVE",
-                    "text": "RWY 27R 27L.",
-                    "voice": "RUNWAYS IN USE ^27R AND ^27L."
-                },
-                {
                     "variableName": "LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CAT TWO AND THREE AVAILABLE."
                 },
                 {
                     "variableName": "LVP_WITH_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL",
                     "voice": " LOW-VISIBILITY PROCEDURES IN OPERATION, CAT THREE AND GUIDED TAKE-OFF AVAILABLE."
                 },
                 {
@@ -3136,6 +3136,11 @@
                     "variableName": "IFR_CLR",
                     "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
                     "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
+                },
+                {
+                    "variableName": "EDDV_27R_AND_27L_ACTIVE",
+                    "text": "RWY 27R 27L",
+                    "voice": "RUNWAYS IN USE ^27R AND ^27L."
                 },
                 {
                     "variableName": "EDDV_09R_AND_09L_ACTIVE",
@@ -3163,6 +3168,26 @@
                     "voice": "RUNWAY IN USE ^27L."
                 },
                 {
+                    "variableName": "RWY09L",
+                    "text": "RWY 09L",
+                    "voice": "RUNWAY ^09L."
+                },
+                {
+                    "variableName": "RWY27R",
+                    "text": "RWY 27R",
+                    "voice": "RUNWAY ^27R."
+                },
+                {
+                    "variableName": "RWY09R",
+                    "text": "RWY 09R",
+                    "voice": "RUNWAY ^09R."
+                },
+                {
+                    "variableName": "RWY27L",
+                    "text": "RWY 27L",
+                    "voice": "RUNWAY ^27L."
+                },
+                {
                     "variableName": "ADV",
                     "text": "WHEN AIRBORNE MONITOR ADVISORY",
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY"
@@ -3170,7 +3195,7 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "REPORT PREFERRED RUNWAY ON INITIAL CONTACT.",
+                    "text": "REPORT PREFERRED RUNWAY ON INITIAL CONTACT",
                     "ordinal": 0,
                     "enabled": false
                 },
@@ -3185,69 +3210,69 @@
                     "enabled": false
                 },
                 {
-                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^09L.",
+                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^09L",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^27R.",
+                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^27R",
                     "ordinal": 5,
                     "enabled": false
                 }
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 119.490.",
+                    "text": "@DEPFREQ 119.490",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 124.240.",
+                    "text": "@DEPFREQ 124.240",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.025.",
+                    "text": "@DEPFREQ 125.025",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.490.",
+                    "text": "@IFR_CLR 119.490",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.240.",
+                    "text": "@IFR_CLR 124.240",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.025.",
+                    "text": "@IFR_CLR 125.025",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 11,
                     "enabled": false
                 }
@@ -3270,7 +3295,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "TIME {time} {special}."
+                        "voice": ". TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -3576,7 +3601,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -3588,8 +3613,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": " INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": " INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -3608,7 +3633,7 @@
                     "name": "RWY 26",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDVE [ATIS_CODE]. [TIME]. \r\nEXPECT [ARPT_COND].\r\n@ACTIVE_26\r\n[NOTAMS]\r\n[TL]\r\n@WIND_26 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDVE [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_26\r\n[NOTAMS]\r\n[TL]\r\n@WIND_26 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3618,7 +3643,7 @@
                     "name": "RWY 08",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDVE [ATIS_CODE]. [TIME]. \r\nEXPECT [ARPT_COND].\r\n@ACTIVE_08\r\n[NOTAMS]\r\n[TL]\r\n@WIND_08 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDVE [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_08\r\n[NOTAMS]\r\n[TL]\r\n@WIND_08 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3682,12 +3707,12 @@
                 },
                 {
                     "variableName": "LVTO_08",
-                    "text": "LOW VIS TAKEOFF PROC RWY 08 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 08 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 08 IN OPERATION."
                 },
                 {
                     "variableName": "LVTO_26",
-                    "text": "LOW VIS TAKEOFF PROC RWY 26 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 26 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 26 IN OPERATION."
                 }
             ],
@@ -3720,57 +3745,57 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 119.490.",
+                    "text": "@DEPFREQ 119.490",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 124.240.",
+                    "text": "@DEPFREQ 124.240",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.025.",
+                    "text": "@DEPFREQ 125.025",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.490.",
+                    "text": "@IFR_CLR 119.490",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.240.",
+                    "text": "@IFR_CLR 124.240",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.025.",
+                    "text": "@IFR_CLR 125.025",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 11,
                     "enabled": false
                 }
@@ -4099,7 +4124,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -4111,8 +4136,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -4131,7 +4156,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDVK [ATIS_CODE]. [TIME]. \r\nEXPECT [ARPT_COND]\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n@WIND_27 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDVK [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n@WIND_27 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4140,7 +4165,7 @@
                     "id": "ad841084-ae31-43a3-89f3-20d663e035f7",
                     "name": "RWY 09",
                     "airportConditions": "",
-                    "template": "@EDVK [ATIS_CODE]. [TIME]. \r\nEXPECT [ARPT_COND]\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n@WIND_09 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@EDVK [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n@WIND_09 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4154,7 +4179,7 @@
                 },
                 {
                     "variableName": "LVP",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CAT TWO AND THREE AVAILABLE"
                 },
                 {
@@ -4204,7 +4229,7 @@
                 },
                 {
                     "variableName": "LVTO_09",
-                    "text": "LOW VIS TAKEOFF PROC RWY 09 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 09 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 09 IN OPERATION."
                 }
             ],
@@ -4232,47 +4257,47 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800.",
+                    "text": "@ADV 122.800",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 124.240.",
+                    "text": "@DEPFREQ 124.240",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.025.",
+                    "text": "@DEPFREQ 125.025",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675.",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725.",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.240.",
+                    "text": "@IFR_CLR 124.240",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.025.",
+                    "text": "@IFR_CLR 125.025",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675.",
+                    "text": "@IFR_CLR 127.675",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725.",
+                    "text": "@IFR_CLR 133.725",
                     "ordinal": 9,
                     "enabled": false
                 }
@@ -4295,7 +4320,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "MET REPORT TIME {time} {special}."
+                        "voice": ". MET REPORT TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -4307,38 +4332,38 @@
                     "standard": {
                         "template": {
                             "text": "{wind_dir}{wind_spd}KT",
-                            "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+                            "voice": ". WIND {wind_dir} DEGREES {wind_spd} KNOTS"
                         }
                     },
                     "standardGust": {
                         "template": {
                             "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-                            "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTS {wind_gust} KNOTS"
+                            "voice": ". WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTS {wind_gust} KNOTS"
                         }
                     },
                     "variable": {
                         "template": {
                             "text": "VRB{wind_spd}KT",
-                            "voice": "WIND VARIABLE {wind_spd} KNOTS"
+                            "voice": ". WIND VARIABLE {wind_spd} KNOTS"
                         }
                     },
                     "variableGust": {
                         "template": {
                             "text": "VRB{wind_spd}G{wind_gust}KT",
-                            "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTS {wind_gust} KNOTS"
+                            "voice": ". WIND VARIABLE {wind_spd} KNOTS GUSTS {wind_gust} KNOTS"
                         }
                     },
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": ". WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
                         "calmWindSpeed": 0,
                         "template": {
                             "text": "{wind}",
-                            "voice": "WIND CALM"
+                            "voice": ". WIND CALM"
                         }
                     }
                 },
@@ -4601,7 +4626,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -4613,8 +4638,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -4634,7 +4659,7 @@
                     "name": "06R AND 06L",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS.\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]\r\n",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4642,7 +4667,7 @@
                 {
                     "id": "f9d993bc-158e-4326-8978-685ce9feee67",
                     "name": "24R AND 24L",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS.\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4650,7 +4675,7 @@
                 {
                     "id": "86218b1a-f5e7-4fcb-8309-2765f220fe39",
                     "name": "DROPS ARR 06R DEP 06L",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS RWY ^06R.\r\n@ACTIVE_06R_06L\r\nDEPARTURES EXPECT RWY ^06L.\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS @RWY06R\r\n@ACTIVE_06R_06L\r\nDEPARTURES EXPECT @RWY06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4660,7 +4685,7 @@
                     "name": "DROPS ARR 06L DEP 06R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS RWY ^06L.\r\n@ACTIVE_06R_06L\r\nDEPARTURES EXPECT RWY ^06R.\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS @RWY06L\r\n@ACTIVE_06R_06L\r\nDEPARTURES EXPECT @RWY06R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4670,7 +4695,7 @@
                     "name": "DROPS ARR 24R DEP 24L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS RWY ^24R.\r\n@ACTIVE_06R_06L\r\nDEPARTURES EXPECT RWY ^24L.\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS @RWY24R\r\n@ACTIVE_24R_24L\r\nDEPARTURES EXPECT @RWY24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4678,7 +4703,7 @@
                 {
                     "id": "cbb8f8c7-3f89-48b2-9fb8-031aacb46bb0",
                     "name": "DROPS ARR 24L DEP 24R",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS RWY ^24L.\r\n@ACTIVE_06R_06L\r\nDEPARTURES EXPECT RWY ^24R.\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS @RWY24L\r\n@ACTIVE_24R_24L\r\nDEPARTURES EXPECT @RWY24R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4686,7 +4711,7 @@
                 {
                     "id": "c02b3954-fd1e-4e49-8fbb-c1a088a80298",
                     "name": "24R AND 24L INDEP",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR INDEPENDENT PARALLEL @ILS.\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR INDEPENDENT PARALLEL @ILS\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4696,7 +4721,7 @@
                     "name": "06R AND 06L INDEP",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR INDEPENDENT PARALLEL @ILS.\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]\r\n",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR INDEPENDENT PARALLEL @ILS\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4706,7 +4731,7 @@
                     "name": "06R SINGLE",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS.\r\n@ACTIVE_06R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]\r\n",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_06R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4716,7 +4741,7 @@
                     "name": "06L SINGLE",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS.\r\n@ACTIVE_06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]\r\n",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4726,7 +4751,7 @@
                     "name": "24R SINGLE",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS.\r\n@ACTIVE_24R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]\r\n",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_24R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4736,7 +4761,7 @@
                     "name": "24L SINGLE",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE]. [TIME]. \r\nEXPECT VECTORS FOR @ILS.\r\n@ACTIVE_24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]\r\n",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4755,18 +4780,38 @@
                 },
                 {
                     "variableName": "LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL.",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY TWO AND THREE AVAILABLE."
                 },
                 {
                     "variableName": "LVP_WITH_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL.",
-                    "voice": " LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY THREE AND GUIDED TAKE-OFF AVAILABLE."
+                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL",
+                    "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY THREE AND GUIDED TAKE-OFF AVAILABLE."
+                },
+                {
+                    "variableName": "RWY06R",
+                    "text": "RWY 06R",
+                    "voice": "RWY ^06R."
+                },
+                {
+                    "variableName": "RWY06L",
+                    "text": "RWY 06L",
+                    "voice": "RWY ^06L."
+                },
+                {
+                    "variableName": "RWY24R",
+                    "text": "RWY 24R",
+                    "voice": "RWY ^24R."
+                },
+                {
+                    "variableName": "RWY24L",
+                    "text": "RWY 24L",
+                    "voice": "RWY ^24L."
                 },
                 {
                     "variableName": "ILS",
                     "text": "ILS APCH",
-                    "voice": "ILS APPROACH"
+                    "voice": "ILS APPROACH."
                 },
                 {
                     "variableName": "ACTIVE_06R_06L",
@@ -4813,32 +4858,32 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "AFTER VACATING RWY ^24R AND ^24L REMAIN ON FREQUENCY.",
+                    "text": "AFTER VACATING RWY ^24R AND ^24L REMAIN ON FREQUENCY",
                     "ordinal": 1,
                     "enabled": false
                 },
                 {
-                    "text": "AFTER VACATING RWY ^24R CONTACT GROUND FREQUENCY 129.505.",
+                    "text": "AFTER VACATING RWY ^24R CONTACT GROUND FREQUENCY 129.505",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "AFTER VACATING RUNWAY ^24L CONTACT GROUND FREQUENCY 121.705.",
+                    "text": "AFTER VACATING RUNWAY ^24L CONTACT GROUND FREQUENCY 121.705",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "AFTER VACATING RWY ^06L CONTACT GROUND FREQUENCY 129.505.",
+                    "text": "AFTER VACATING RWY ^06L CONTACT GROUND FREQUENCY 129.505",
                     "ordinal": 4,
                     "enabled": true
                 },
                 {
-                    "text": "AFTER VACATING RUNWAY ^06R CONTACT GROUND FREQUENCY 121.705.",
+                    "text": "AFTER VACATING RUNWAY ^06R CONTACT GROUND FREQUENCY 121.705",
                     "ordinal": 5,
                     "enabled": true
                 },
                 {
-                    "text": "AFTER VACATING RWY ^06R AND ^06L REMAIN ON FREQUENCY.",
+                    "text": "AFTER VACATING RWY ^06R AND ^06L REMAIN ON FREQUENCY",
                     "ordinal": 6,
                     "enabled": false
                 }
@@ -4861,7 +4906,7 @@
                     ],
                     "template": {
                         "text": "METAR {day}{time} ",
-                        "voice": "MET REPORT TIME {time} {special}."
+                        "voice": ". MET REPORT TIME {time} {special}."
                     }
                 },
                 "surfaceWind": {
@@ -5167,7 +5212,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl}",
-                        "voice": "TRANSITION LEVEL {trl}."
+                        "voice": ". TRANSITION LEVEL {trl}."
                     }
                 },
                 "notams": {
@@ -5179,8 +5224,8 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": ".",
-                        "voice": "ROSTOCK-LAAR GEH INFORMATION {letter|word} OUT"
+                        "text": " ",
+                        "voice": "ROSTOCK-LAAR GEH INFORMATION {letter|word} OUT."
                     }
                 }
             },
@@ -5199,7 +5244,7 @@
                     "name": "ANY RWY",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@ETNL [ATIS_CODE]. [TIME]. \r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+                    "template": "@ETNL [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5213,12 +5258,12 @@
                 },
                 {
                     "variableName": "LVTO_09",
-                    "text": "LOW VIS TAKEOFF PROC RWY 09 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 09 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 09 IN OPERATION."
                 },
                 {
                     "variableName": "LVTO_27",
-                    "text": "LOW VIS TAKEOFF PROC RWY 27 IN OPERATION.",
+                    "text": "LOW VIS TAKEOFF PROC RWY 27 IN OPERATION",
                     "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 27 IN OPERATION."
                 }
             ],
