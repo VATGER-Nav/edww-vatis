@@ -58,7 +58,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -672,7 +672,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -1193,7 +1193,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -1711,7 +1711,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -2184,7 +2184,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -2722,7 +2722,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -4356,7 +4356,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": ". WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": ". VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -4942,7 +4942,7 @@
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
