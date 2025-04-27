@@ -340,7 +340,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "HAMBURG INFORMATION {letter|word} OUT."
                     }
                 }
@@ -954,7 +954,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "LUEBECK INFORMATION {letter|word} OUT."
                     }
                 }
@@ -1475,7 +1475,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "FINKENWERDER INFORMATION {letter|word} OUT."
                     }
                 }
@@ -1993,7 +1993,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": ". {letter|word}."
                     }
                 }
@@ -2466,7 +2466,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "BREMEN INFORMATION {letter|word} OUT."
                     }
                 }
@@ -3004,7 +3004,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "HANNOVER INFORMATION {letter|word} OUT."
                     }
                 }
@@ -3613,7 +3613,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": " INFORMATION {letter|word} OUT."
                     }
                 }
@@ -4136,7 +4136,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "INFORMATION {letter|word} OUT."
                     }
                 }
@@ -4638,7 +4638,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "INFORMATION {letter|word} OUT."
                     }
                 }
@@ -5224,7 +5224,7 @@
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "",
+                        "text": "END OF ATIS {letter}",
                         "voice": "ROSTOCK-LAAR GEH INFORMATION {letter|word} OUT."
                     }
                 }
