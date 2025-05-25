@@ -21,8 +21,8 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
-                        "voice": ". MET REPORT TIME {time} {special}."
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -86,6 +86,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -227,11 +233,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -302,6 +318,24 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter}"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableVoice": "Trend not available",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -635,8 +669,8 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
-                        "voice": ". MET REPORT TIME {time} {special}."
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -700,6 +734,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -841,11 +881,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -916,6 +966,22 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter}"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -1156,8 +1222,8 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
-                        "voice": ". MET REPORT TIME {time} {special}."
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -1221,6 +1287,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -1362,11 +1434,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -1437,6 +1519,22 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter}"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -1674,7 +1772,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
+                        "text": "{type} {day}{time} ",
                         "voice": ". {time} {special}."
                     }
                 },
@@ -1739,6 +1837,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -1880,11 +1984,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -1955,6 +2069,22 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter} HECTORPASCAL"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -2147,8 +2277,8 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
-                        "voice": ". MET REPORT TIME {time} {special}."
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -2212,6 +2342,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -2353,11 +2489,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -2428,6 +2574,24 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter}"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableVoice": "Trend not available",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -2685,8 +2849,8 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
-                        "voice": ". MET REPORT TIME {time} {special}."
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -2750,6 +2914,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -2891,11 +3061,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -2966,6 +3146,24 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter}"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableVoice": "Trend not available",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -3294,7 +3492,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
+                        "text": "{type} {day}{time} ",
                         "voice": ". TIME {time} {special}."
                     }
                 },
@@ -3359,6 +3557,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -3500,11 +3704,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -3575,6 +3789,22 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter} HECTORPASCAL"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -3817,7 +4047,7 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
+                        "text": "{type} {day}{time} ",
                         "voice": "TIME {time} {special}."
                     }
                 },
@@ -3882,6 +4112,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -4023,11 +4259,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -4098,6 +4344,24 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter} HECTORPASCAL"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableVoice": "Trend not available",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -4319,8 +4583,8 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
-                        "voice": ". MET REPORT TIME {time} {special}."
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -4384,6 +4648,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -4525,11 +4795,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -4600,6 +4880,24 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter}"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableVoice": "Trend not available",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
@@ -4905,8 +5203,8 @@
                         50
                     ],
                     "template": {
-                        "text": "METAR {day}{time} ",
-                        "voice": ". MET REPORT TIME {time} {special}."
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -4970,6 +5268,12 @@
                         "text": "{visibility}",
                         "voice": "VISIBILITY {visibility}"
                     }
+                },
+                "runwayVisualRange": {
+                    "neutralTendency": "Neutral",
+                    "goingUpTendency": "Upgrading",
+                    "goingDownTendency": "Downgrading",
+                    "template": {}
                 },
                 "presentWeather": {
                     "lightIntensity": "light",
@@ -5111,11 +5415,21 @@
                 },
                 "clouds": {
                     "identifyCeilingLayer": false,
+                    "identifyCeilingLayerTextAtis": false,
+                    "textAtisCeilingPrefix": "CIG",
+                    "cloudCeilingLayerTypes": [
+                        "BKN",
+                        "OVC"
+                    ],
                     "convertToMetric": false,
                     "isAltitudeInHundreds": false,
                     "undeterminedLayerAltitude": {
                         "text": "///",
                         "voice": "cloud height not available"
+                    },
+                    "automaticCbDetection": {
+                        "text": "//////CB",
+                        "voice": "RADAR DETECTED C-B CLOUDS"
                     },
                     "types": {
                         "FEW": {
@@ -5186,6 +5500,22 @@
                         "text": "QNH{altimeter}",
                         "voice": "QNH {altimeter}"
                     }
+                },
+                "trend": {
+                    "nosigText": "NOSIG",
+                    "nosigVoice": "No Significant Changes",
+                    "becomingText": "BECMG",
+                    "becomingVoice": "Becoming",
+                    "temporaryText": "TEMPO",
+                    "temporaryVoice": "Temporary",
+                    "template": {}
+                },
+                "windShear": {
+                    "runwayText": "WS R{Runway}",
+                    "runwayVoice": "Caution! Wind Shear Runway {Runway}",
+                    "allRunwayText": "WS ALL RWY",
+                    "allRunwayVoice": "Caution! Wind Shear All Runways",
+                    "template": {}
                 },
                 "transitionLevel": {
                     "values": [
