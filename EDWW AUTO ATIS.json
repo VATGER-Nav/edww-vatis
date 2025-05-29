@@ -326,7 +326,7 @@
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
                     "temporaryVoice": "Temporary",
-                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableText": "",
                     "notAvailableVoice": "Trend not available",
                     "template": {}
                 },
@@ -2582,7 +2582,7 @@
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
                     "temporaryVoice": "Temporary",
-                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableText": "",
                     "notAvailableVoice": "Trend not available",
                     "template": {}
                 },
@@ -3154,7 +3154,7 @@
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
                     "temporaryVoice": "Temporary",
-                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableText": "",
                     "notAvailableVoice": "Trend not available",
                     "template": {}
                 },
@@ -4352,7 +4352,7 @@
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
                     "temporaryVoice": "Temporary",
-                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableText": "",
                     "notAvailableVoice": "Trend not available",
                     "template": {}
                 },
@@ -4888,7 +4888,7 @@
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
                     "temporaryVoice": "Temporary",
-                    "notAvailableText": "TREND NOT AVAILABLE",
+                    "notAvailableText": "",
                     "notAvailableVoice": "Trend not available",
                     "template": {}
                 },
