@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - dev
     paths:
       - 'EDWW AUTO ATIS.json'
       
@@ -21,7 +20,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.13.2
+          python-version: 3.13.5
 
       - name: Run Serial Update Script
         run: python .github/workflows/serial.py
