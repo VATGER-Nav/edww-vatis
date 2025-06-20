@@ -11,4 +11,4 @@ Once you imported the profiles to vATIS, the profiles are automatically updated,
 4. Start using vATIS  
 Documentation: https://vatis.app/docs/  
 
-Note: The Profiles are automatically updated, whenever you launch vATIS and an update is available.  
+Note: The Profiles are automatically updated, whenever you launch vATIS and an update is available.
