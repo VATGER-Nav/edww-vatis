@@ -2230,33 +2230,43 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675",
+                    "text": "@DEPFREQ 125.855",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.075",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325",
+                    "text": "@IFR_CLR 124.075",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675",
+                    "text": "@IFR_CLR 126.325",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725",
+                    "text": "@IFR_CLR 125.855",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725",
+                    "ordinal": 11,
                     "enabled": false
                 }
             ]
@@ -2797,38 +2807,53 @@
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675",
+                    "text": "@DEPFREQ 125.855",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725",
+                    "text": "@DEPFREQ 127.675",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.800",
+                    "text": "@DEPFREQ 133.725",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.075",
+                    "text": "@IFR_CLR 124.800",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325",
+                    "text": "@IFR_CLR 124.075",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675",
+                    "text": "@IFR_CLR 126.325",
                     "ordinal": 11,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725",
+                    "text": "@IFR_CLR 125.855",
                     "ordinal": 12,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 127.675",
+                    "ordinal": 13,
+                    "enabled": false
+                },
+                {
+                    "text": "@IFR_CLR 133.725",
+                    "ordinal": 14,
+                    "enabled": false
+                },
+                {
+                    "text": "TO REQUEST MYSTERY DESTINATION CONTACT GROUND WITH REQUEST SHORT, MEDIUM OR LONG MYSTERY DESTINATION.",
+                    "ordinal": 15,
                     "enabled": false
                 }
             ]
@@ -3472,6 +3497,11 @@
                 {
                     "text": "@IFR_CLR 133.725",
                     "ordinal": 11,
+                    "enabled": false
+                },
+                {
+                    "text": "TO REQUEST MYSTERY DESTINATION CONTACT DELIVERY WITH REQUEST SHORT, MEDIUM OR LONG MYSTERY DESTINATION.",
+                    "ordinal": 12,
                     "enabled": false
                 }
             ]
