@@ -4994,8 +4994,8 @@
                 },
                 {
                     "id": "f9d993bc-158e-4326-8978-685ce9feee67",
-                    "name": "24R AND 24L",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "name": "24R AND 24L (ILS Z)",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_24R_24L\r\nSIMULTANEOUS PARALLEL OPERATION IN PROGRESS. [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
