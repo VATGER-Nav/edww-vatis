@@ -4984,10 +4984,10 @@
             "presets": [
                 {
                     "id": "bde114c0-1649-4c8c-8298-08667d9c6d98",
-                    "name": "06R AND 06L",
+                    "name": "06R AND 06L (ILS Z)",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILS\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_06R_06L\r\nSIMULTANEOUS PARALLEL OPERATION IN PROGRESS. [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5140,6 +5140,11 @@
                     "variableName": "ILS",
                     "text": "ILS APCH",
                     "voice": "ILS APPROACH."
+                },
+                {
+                    "variableName": "ILSZ",
+                    "text": "ILS-Z APCH",
+                    "voice": "ILS ZULU APPROACH."
                 },
                 {
                     "variableName": "ACTIVE_06R_06L",
