@@ -5002,7 +5002,7 @@
                 },
                 {
                     "id": "ee12f20e-3272-4248-a493-2cfe14b56130",
-                    "name": "06R AND 06L INDEP",
+                    "name": "06R AND 06L (IPA)",
                     "airportConditions": "\r\n",
                     "notams": "",
                     "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_06R_06L\r\nPARALLEL INDEPENDENT OPERATION IN PROGRESS. [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
@@ -5012,7 +5012,7 @@
                 },
                 {
                     "id": "c02b3954-fd1e-4e49-8fbb-c1a088a80298",
-                    "name": "24R AND 24L INDEP",
+                    "name": "24R AND 24L (IPA)",
                     "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_24R_24L\r\nPARALLEL INDEPENDENT OPERATION IN PROGRESS. [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
