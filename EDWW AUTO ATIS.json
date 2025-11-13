@@ -1,9 +1,9 @@
 {
     "version": 1,
-    "name": "EDWW ATIS 02 Nov 2025",
+    "name": "EDWW ATIS 13 Nov 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2025110201,
+    "updateSerial": 2025111301,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
