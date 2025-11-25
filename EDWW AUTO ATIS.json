@@ -2791,38 +2791,6 @@
                     "variableName": "VOR",
                     "text": "VOR APCH",
                     "voice": "VOR APPROACH."
-                }
-            ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "@ILS_Z",
-                    "ordinal": 1,
-                    "enabled": true
-                },
-                {
-                    "text": "@ILS_Y",
-                    "ordinal": 2,
-                    "enabled": false
-                },
-                {
-                    "text": "@RNP",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@VOR",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "ordinal": 5,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVP_WITH_GUIDED_TAKEOFF",
-                    "ordinal": 6,
-                    "enabled": false
                 },
                 {
                     "variableName": "COND",
@@ -2868,6 +2836,38 @@
                     "variableName": "TREATED",
                     "text": "TREATED",
                     "voice": "TREATED."
+                }
+            ],
+            "airportConditionDefinitions": [
+                {
+                    "text": "@ILS_Z",
+                    "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "@ILS_Y",
+                    "ordinal": 2,
+                    "enabled": false
+                },
+                {
+                    "text": "@RNP",
+                    "ordinal": 3,
+                    "enabled": false
+                },
+                {
+                    "text": "@VOR",
+                    "ordinal": 3,
+                    "enabled": false
+                },
+                {
+                    "text": "@LVP_WITHOUT_GUIDED_TAKEOFF",
+                    "ordinal": 5,
+                    "enabled": false
+                },
+                {
+                    "text": "@LVP_WITH_GUIDED_TAKEOFF",
+                    "ordinal": 6,
+                    "enabled": false
                 }
             ],
             "notamDefinitions": [
