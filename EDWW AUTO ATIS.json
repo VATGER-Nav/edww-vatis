@@ -5359,12 +5359,12 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "@LVP_WITHOUT_GUIDED_TAKEOFF",
+                    "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 1,
                     "enabled": false
                 },
                 {
-                    "text": "@LVP_WITH_GUIDED_TAKEOFF",
+                    "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 2,
                     "enabled": false
                 }
