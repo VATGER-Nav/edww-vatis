@@ -5243,12 +5243,12 @@
                 },
                 {
                     "variableName": "LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL",
+                    "text": "\r\nLOW VIS PROC IN OPERATION CAT II AND III AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY TWO AND THREE AVAILABLE."
                 },
                 {
                     "variableName": "LVP_WITH_GUIDED_TAKEOFF",
-                    "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL",
+                    "text": "\r\nLOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL",
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY THREE AND GUIDED TAKE-OFF AVAILABLE."
                 },
                 {
