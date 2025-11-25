@@ -566,6 +566,51 @@
                     "variableName": "ACTIVE_LDG15_TKOF33",
                     "text": "LDG 15 TKOF 33",
                     "voice": "RUNWAYS IN USE FOR LANDING ^15 AND TAKEOFF ^33."
+                },
+                {
+                    "variableName": "COND",
+                    "text": "COND",
+                    "voice": "CONDITION."
+                },
+                {
+                    "variableName": "RWYCC",
+                    "text": "RWYCC",
+                    "voice": ".RUNWAY CONDITION CODE"
+                },
+                {
+                    "variableName": "PCT",
+                    "text": "PCT",
+                    "voice": "PERCENT."
+                },
+                {
+                    "variableName": "DEPOSIT",
+                    "text": "DEPOSIT",
+                    "voice": ".DEPOSIT"
+                },
+                {
+                    "variableName": "TDZ",
+                    "text": "TDZ",
+                    "voice": ".TOUCHDOWN ZONE."
+                },
+                {
+                    "variableName": "MID",
+                    "text": "MID",
+                    "voice": ".MID POINT."
+                },
+                {
+                    "variableName": "END",
+                    "text": "END",
+                    "voice": ".STOP END."
+                },
+                {
+                    "variableName": "WET",
+                    "text": "WET",
+                    "voice": "WET."
+                },
+                {
+                    "variableName": "TREATED",
+                    "text": "TREATED",
+                    "voice": "TREATED."
                 }
             ],
             "airportConditionDefinitions": [
@@ -2778,6 +2823,51 @@
                     "text": "@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 6,
                     "enabled": false
+                },
+                {
+                    "variableName": "COND",
+                    "text": "COND",
+                    "voice": "CONDITION."
+                },
+                {
+                    "variableName": "RWYCC",
+                    "text": "RWYCC",
+                    "voice": ".RUNWAY CONDITION CODE"
+                },
+                {
+                    "variableName": "PCT",
+                    "text": "PCT",
+                    "voice": "PERCENT."
+                },
+                {
+                    "variableName": "DEPOSIT",
+                    "text": "DEPOSIT",
+                    "voice": ".DEPOSIT"
+                },
+                {
+                    "variableName": "TDZ",
+                    "text": "TDZ",
+                    "voice": ".TOUCHDOWN ZONE."
+                },
+                {
+                    "variableName": "MID",
+                    "text": "MID",
+                    "voice": ".MID POINT."
+                },
+                {
+                    "variableName": "END",
+                    "text": "END",
+                    "voice": ".STOP END."
+                },
+                {
+                    "variableName": "WET",
+                    "text": "WET",
+                    "voice": "WET."
+                },
+                {
+                    "variableName": "TREATED",
+                    "text": "TREATED",
+                    "voice": "TREATED."
                 }
             ],
             "notamDefinitions": [
@@ -3414,6 +3504,51 @@
                     "variableName": "ADV",
                     "text": "WHEN AIRBORNE MONITOR ADVISORY",
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY"
+                },
+                {
+                    "variableName": "COND",
+                    "text": "COND",
+                    "voice": "CONDITION."
+                },
+                {
+                    "variableName": "RWYCC",
+                    "text": "RWYCC",
+                    "voice": ".RUNWAY CONDITION CODE"
+                },
+                {
+                    "variableName": "PCT",
+                    "text": "PCT",
+                    "voice": "PERCENT."
+                },
+                {
+                    "variableName": "DEPOSIT",
+                    "text": "DEPOSIT",
+                    "voice": ".DEPOSIT"
+                },
+                {
+                    "variableName": "TDZ",
+                    "text": "TDZ",
+                    "voice": ".TOUCHDOWN ZONE."
+                },
+                {
+                    "variableName": "MID",
+                    "text": "MID",
+                    "voice": ".MID POINT."
+                },
+                {
+                    "variableName": "END",
+                    "text": "END",
+                    "voice": ".STOP END."
+                },
+                {
+                    "variableName": "WET",
+                    "text": "WET",
+                    "voice": "WET."
+                },
+                {
+                    "variableName": "TREATED",
+                    "text": "TREATED",
+                    "voice": "TREATED."
                 }
             ],
             "airportConditionDefinitions": [
@@ -5175,6 +5310,51 @@
                     "variableName": "ACTIVE_24R",
                     "text": "RWY 24R",
                     "voice": "RUNWAY IN USE ^24R."
+                },
+                {
+                    "variableName": "COND",
+                    "text": "COND",
+                    "voice": "CONDITION."
+                },
+                {
+                    "variableName": "RWYCC",
+                    "text": "RWYCC",
+                    "voice": ".RUNWAY CONDITION CODE"
+                },
+                {
+                    "variableName": "PCT",
+                    "text": "PCT",
+                    "voice": "PERCENT."
+                },
+                {
+                    "variableName": "DEPOSIT",
+                    "text": "DEPOSIT",
+                    "voice": ".DEPOSIT"
+                },
+                {
+                    "variableName": "TDZ",
+                    "text": "TDZ",
+                    "voice": ".TOUCHDOWN ZONE."
+                },
+                {
+                    "variableName": "MID",
+                    "text": "MID",
+                    "voice": ".MID POINT."
+                },
+                {
+                    "variableName": "END",
+                    "text": "END",
+                    "voice": ".STOP END."
+                },
+                {
+                    "variableName": "WET",
+                    "text": "WET",
+                    "voice": "WET."
+                },
+                {
+                    "variableName": "TREATED",
+                    "text": "TREATED",
+                    "voice": "TREATED."
                 }
             ],
             "airportConditionDefinitions": [
