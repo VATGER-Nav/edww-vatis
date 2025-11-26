@@ -1,9 +1,9 @@
 {
     "version": 1,
-    "name": "EDWW ATIS 26 Nov 2025",
+    "name": "EDWW ATIS 25 Nov 2025",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2025112601,
+    "updateSerial": 2025112506,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
@@ -1084,7 +1084,7 @@
                     "id": "8c039e4b-8280-477d-9d2f-2c5c80ed1346",
                     "name": "RWY 25",
                     "airportConditions": "",
-                    "template": "@EDHL [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDHL [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1093,7 +1093,7 @@
                     "id": "0e67e0f4-0808-4641-9309-0bcb2d19dbc0",
                     "name": "RWY 07",
                     "airportConditions": "",
-                    "template": "@EDHL [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDHL [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1638,7 +1638,7 @@
                     "name": "RWY 23",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDHI [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_23\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDHI [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_23\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -1648,7 +1648,7 @@
                     "name": "RWY 05",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDHI [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_05\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDHI [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_05\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2188,7 +2188,7 @@
                     "name": "RWY 32",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDXW [ATIS_CODE] [TIME]\r\n@ACTIVE_32\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDXW [ATIS_CODE] [TIME]\r\n@ACTIVE_32\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2198,7 +2198,7 @@
                     "name": "RWY 14",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDXW [ATIS_CODE] [TIME]\r\n@ACTIVE_14\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDXW [ATIS_CODE] [TIME]\r\n@ACTIVE_14\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4028,7 +4028,7 @@
                     "name": "RWY 26",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDVE [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_26\r\n[NOTAMS]\r\n[TL]\r\n@WIND_26 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDVE [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_26\r\n[NOTAMS]\r\n[TL]\r\n@WIND_26 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4038,7 +4038,7 @@
                     "name": "RWY 08",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDVE [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_08\r\n[NOTAMS]\r\n[TL]\r\n@WIND_08 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDVE [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_08\r\n[NOTAMS]\r\n[TL]\r\n@WIND_08 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4585,7 +4585,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDVK [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n@WIND_27 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDVK [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n@WIND_27 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -4594,7 +4594,7 @@
                     "id": "ad841084-ae31-43a3-89f3-20d663e035f7",
                     "name": "RWY 09",
                     "airportConditions": "",
-                    "template": "@EDVK [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n@WIND_09 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@EDVK [ATIS_CODE] [TIME]\r\nEXPECT [ARPT_COND]\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n@WIND_09 [WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
                     "externalGenerator": {
                         "enabled": false
                     }
