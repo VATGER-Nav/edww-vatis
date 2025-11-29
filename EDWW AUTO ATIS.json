@@ -5130,7 +5130,7 @@
                 {
                     "id": "f9d993bc-158e-4326-8978-685ce9feee67",
                     "name": "24R AND 24L",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nSIMULTANEOUS PARALLEL OPERATION IN PROGRESS.[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nSIMULTANEOUS PARALLEL OPERATION IN PROGRESS.\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5140,7 +5140,7 @@
                     "name": "06R AND 06L (IPA)",
                     "airportConditions": "\r\n",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\nPARALLEL INDEPENDENT OPERATION IN PROGRESS.[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\nPARALLEL INDEPENDENT OPERATION IN PROGRESS.\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5148,7 +5148,7 @@
                 {
                     "id": "c02b3954-fd1e-4e49-8fbb-c1a088a80298",
                     "name": "24R AND 24L (IPA)",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nPARALLEL INDEPENDENT OPERATION IN PROGRESS.[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT VECTORS FOR @ILSZ\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nPARALLEL INDEPENDENT OPERATION IN PROGRESS.\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
