@@ -5239,7 +5239,7 @@
                 {
                     "variableName": "EDDB",
                     "text": "ATIS EDDB",
-                    "voice": "THIS IS BERLIN BRANDENBURG INFORMATION"
+                    "voice": "BERLIN BRANDENBURG INFORMATION"
                 },
                 {
                     "variableName": "LVP_WITHOUT_GUIDED_TAKEOFF",
