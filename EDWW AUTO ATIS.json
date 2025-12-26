@@ -3356,7 +3356,7 @@
                 {
                     "id": "0b8413d2-e70e-4c6b-9185-3ecbe00e629b",
                     "name": "DEP/ARR 27L AND 27R",
-                    "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS\r\n",
+                    "airportConditions": "",
                     "notams": "",
                     "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27R_AND_27L_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
@@ -3366,7 +3366,7 @@
                 {
                     "id": "c5615c4f-9f01-441c-bcfe-9fe9c4ce4f04",
                     "name": "DEP/ARR 09L AND 09R",
-                    "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS\r\n",
+                    "airportConditions": "",
                     "notams": "",
                     "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09R_AND_09L_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
@@ -3618,13 +3618,18 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
+                    "text": "\r\nDEPENDENT PARALLEL APPROACHES IN PROGRESS",
                     "ordinal": 0,
                     "enabled": false
                 },
                 {
-                    "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
+                    "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 1,
+                    "enabled": false
+                },
+                {
+                    "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
+                    "ordinal": 2,
                     "enabled": false
                 }
             ],
