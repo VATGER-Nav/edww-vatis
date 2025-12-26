@@ -394,7 +394,7 @@
                     "name": "ARR 23 - DEP 33 (STANDARD CONFIG)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG23_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_LDG23_TKOF33\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -404,7 +404,7 @@
                     "name": "ARR 15 - DEP 23",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG15_TKOF23\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_LDG15_TKOF23\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -413,7 +413,7 @@
                     "id": "d1ee5fc8-d424-48a4-b7dc-bb190825b6ef",
                     "name": "ARR 15 - DEP 05",
                     "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG15_TKOF05\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_LDG15_TKOF05\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -423,7 +423,7 @@
                     "name": "ARR 05 - DEP 33",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG05_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_LDG05_TKOF33\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -433,7 +433,7 @@
                     "name": "SINGLE 23",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_23_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_23_SINGLE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -443,7 +443,7 @@
                     "name": "SINGLE 33",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_33_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_33_SINGLE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -452,7 +452,7 @@
                     "id": "ed7a10cb-bfd0-4c7a-aff2-ef004e9c31a9",
                     "name": "SINGLE 05",
                     "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_05_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_05_SINGLE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -461,7 +461,7 @@
                     "id": "ef04f94c-ffa1-4aed-ab4b-bbc37f857ee6",
                     "name": "SINGLE 15",
                     "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_15_SINGLE\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_15_SINGLE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -470,7 +470,7 @@
                     "id": "4dc12778-eba8-4e9c-93b4-6902100e5ef9",
                     "name": "ARR 15 - DEP 33 (NIGHT OPS)",
                     "airportConditions": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG15_TKOF33\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_LDG15_TKOF33\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -498,19 +498,14 @@
                     "voice": " LOW-VISIBILITY PROCEDURES IN OPERATION, CAT THREE AND GUIDED TAKE-OFF AVAILABLE."
                 },
                 {
-                    "variableName": "DEPFREQ",
-                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR",
-                    "voice": "WHEN PASSING *2000 FEET CONTACT BREMEN RADAR"
+                    "variableName": "REQ",
+                    "text": "REQ",
+                    "voice": "REQUEST"
                 },
                 {
-                    "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
-                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
-                },
-                {
-                    "variableName": "ADV",
-                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
-                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
+                    "variableName": "CLR",
+                    "text": "CLR",
+                    "voice": "CLEARANCE"
                 },
                 {
                     "variableName": "ACTIVE_LDG23_TKOF33",
@@ -608,6 +603,61 @@
                     "voice": "WET."
                 },
                 {
+                    "variableName": "SLUSH",
+                    "text": "SLUSH",
+                    "voice": "SLUSH."
+                },
+                {
+                    "variableName": "DRY SNOW",
+                    "text": "DRY SNOW",
+                    "voice": "DRY SNOW."
+                },
+                {
+                    "variableName": "WET SNOW",
+                    "text": "WET SNOW",
+                    "voice": "WET SNOW."
+                },
+                {
+                    "variableName": "COMPACTED SNOW",
+                    "text": "COMPACTED SNOW",
+                    "voice": "COMPACTED SNOW."
+                },
+                {
+                    "variableName": "STANDING WATER",
+                    "text": "STANDING WATER",
+                    "voice": "STANDING WATER."
+                },
+                {
+                    "variableName": "ICE",
+                    "text": "ICE",
+                    "voice": "ICE."
+                },
+                {
+                    "variableName": "WET ICE",
+                    "text": "WET ICE",
+                    "voice": "WET ICE."
+                },
+                {
+                    "variableName": "WATER ON TOP OF COMPACTED SNOW",
+                    "text": "WATER ON TOP OF COMPACTED SNOW",
+                    "voice": "WATER ON TOP OF COMPACTED SNOW."
+                },
+                {
+                    "variableName": "DRY SNOW ON TOP OF ICE",
+                    "text": "DRY SNOW ON TOP OF ICE",
+                    "voice": "DRY SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "WET SNOW ON TOP OF ICE",
+                    "text": "WET SNOW ON TOP OF ICE",
+                    "voice": "WET SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "100",
+                    "text": "100",
+                    "voice": "ONE HUNDRED"
+                },
+                {
                     "variableName": "TREATED",
                     "text": "TREATED",
                     "voice": "TREATED."
@@ -615,84 +665,74 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "@ILS",
-                    "ordinal": 1,
-                    "enabled": true
-                },
-                {
-                    "text": "@RNP",
+                    "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 1,
                     "enabled": false
                 },
                 {
-                    "text": "@LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVP_WITH_GUIDED_TAKEOFF",
-                    "ordinal": 4,
+                    "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
+                    "ordinal": 2,
                     "enabled": false
                 }
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800",
+                    "text": "WHEN PASSING 2000 FT MONITOR ADVISORY.",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 120.540",
+                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 120.540.",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 134.255",
+                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 134.255.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325",
+                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 126.325.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.855",
+                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 125.855.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675",
+                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 127.675.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725",
+                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 133.725.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 120.540",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 120.540.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 126.325.",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 125.855.",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 127.675.",
                     "ordinal": 11,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADARR 133.725.",
                     "ordinal": 12,
                     "enabled": false
                 }
@@ -5501,29 +5541,19 @@
                     "enabled": false
                 },
                 {
-                    "text": "AFTER VACATING RWY ^24R CONTACT GROUND FREQUENCY 129.505",
+                    "text": "AFTER VACATING RWY ^24R CONTACT GROUND FREQUENCY 129.505, AFTER VACATING RUNWAY ^24L CONTACT GROUND FREQUENCY 121.705",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "AFTER VACATING RUNWAY ^24L CONTACT GROUND FREQUENCY 121.705",
+                    "text": "AFTER VACATING RWY ^06R AND ^06L REMAIN ON FREQUENCY",
                     "ordinal": 3,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
-                    "text": "AFTER VACATING RWY ^06L CONTACT GROUND FREQUENCY 129.505",
+                    "text": "AFTER VACATING RWY ^06L CONTACT GROUND FREQUENCY 129.505, AFTER VACATING RUNWAY ^06R CONTACT GROUND FREQUENCY 121.705",
                     "ordinal": 4,
                     "enabled": true
-                },
-                {
-                    "text": "AFTER VACATING RUNWAY ^06R CONTACT GROUND FREQUENCY 121.705",
-                    "ordinal": 5,
-                    "enabled": true
-                },
-                {
-                    "text": "AFTER VACATING RWY ^06R AND ^06L REMAIN ON FREQUENCY",
-                    "ordinal": 6,
-                    "enabled": false
                 }
             ]
         },
