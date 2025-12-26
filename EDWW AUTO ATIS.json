@@ -3521,6 +3521,11 @@
                     "voice": "CLEARANCE"
                 },
                 {
+                    "variableName": "COND",
+                    "text": "COND",
+                    "voice": "CONDITION."
+                },
+                {
                     "variableName": "RWYCC",
                     "text": "RWYCC",
                     "voice": ".RUNWAY CONDITION CODE"
