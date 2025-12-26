@@ -2705,7 +2705,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED [ARPT_COND]\r\n@ACTIVE_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED @ILS_Z\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2715,7 +2715,7 @@
                     "name": "RWY 09",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED [ARPT_COND]\r\n@ACTIVE_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED @ILS_Z\r\n@ACTIVE_09\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2743,24 +2743,14 @@
                     "voice": " LOW-VISIBILITY PROCEDURES IN OPERATION, CAT THREE AND GUIDED TAKE-OFF AVAILABLE."
                 },
                 {
-                    "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
-                    "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
+                    "variableName": "REQ",
+                    "text": "REQ",
+                    "voice": "REQUEST"
                 },
                 {
-                    "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
-                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
-                },
-                {
-                    "variableName": "ADV",
-                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
-                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
-                },
-                {
-                    "variableName": "GND",
-                    "text": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121.755",
-                    "voice": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121 DECIMAL 755"
+                    "variableName": "CLR",
+                    "text": "CLR",
+                    "voice": "CLEARANCE"
                 },
                 {
                     "variableName": "ACTIVE_27",
@@ -2833,6 +2823,61 @@
                     "voice": "WET."
                 },
                 {
+                    "variableName": "SLUSH",
+                    "text": "SLUSH",
+                    "voice": "SLUSH."
+                },
+                {
+                    "variableName": "DRY SNOW",
+                    "text": "DRY SNOW",
+                    "voice": "DRY SNOW."
+                },
+                {
+                    "variableName": "WET SNOW",
+                    "text": "WET SNOW",
+                    "voice": "WET SNOW."
+                },
+                {
+                    "variableName": "COMPACTED SNOW",
+                    "text": "COMPACTED SNOW",
+                    "voice": "COMPACTED SNOW."
+                },
+                {
+                    "variableName": "STANDING WATER",
+                    "text": "STANDING WATER",
+                    "voice": "STANDING WATER."
+                },
+                {
+                    "variableName": "ICE",
+                    "text": "ICE",
+                    "voice": "ICE."
+                },
+                {
+                    "variableName": "WET ICE",
+                    "text": "WET ICE",
+                    "voice": "WET ICE."
+                },
+                {
+                    "variableName": "WATER ON TOP OF COMPACTED SNOW",
+                    "text": "WATER ON TOP OF COMPACTED SNOW",
+                    "voice": "WATER ON TOP OF COMPACTED SNOW."
+                },
+                {
+                    "variableName": "DRY SNOW ON TOP OF ICE",
+                    "text": "DRY SNOW ON TOP OF ICE",
+                    "voice": "DRY SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "WET SNOW ON TOP OF ICE",
+                    "text": "WET SNOW ON TOP OF ICE",
+                    "voice": "WET SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "100",
+                    "text": "100",
+                    "voice": "ONE HUNDRED."
+                },
+                {
                     "variableName": "TREATED",
                     "text": "TREATED",
                     "voice": "TREATED."
@@ -2840,110 +2885,85 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "@ILS_Z",
+                    "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 1,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
-                    "text": "@ILS_Y",
+                    "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 2,
-                    "enabled": false
-                },
-                {
-                    "text": "@RNP",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@VOR",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "ordinal": 5,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVP_WITH_GUIDED_TAKEOFF",
-                    "ordinal": 6,
                     "enabled": false
                 }
             ],
             "notamDefinitions": [
                 {
-                    "text": "@GND",
+                    "text": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121.755.",
                     "ordinal": 1,
                     "enabled": false
                 },
                 {
-                    "text": "@ADV 122.800",
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY.",
                     "ordinal": 2,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 124.800",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 124.800.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 124.075",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 124.075.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 126.325",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 126.325.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 125.855",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 125.855.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 127.675.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 133.725.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.800",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 124.800.",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.075",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 124.075.",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 126.325",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 126.325.",
                     "ordinal": 11,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.855",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 125.855.",
                     "ordinal": 12,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 127.675.",
                     "ordinal": 13,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 133.725.",
                     "ordinal": 14,
-                    "enabled": false
-                },
-                {
-                    "text": "TO REQUEST MYSTERY DESTINATION CONTACT GROUND WITH REQUEST SHORT, MEDIUM OR LONG MYSTERY DESTINATION.",
-                    "ordinal": 15,
                     "enabled": false
                 }
             ]
