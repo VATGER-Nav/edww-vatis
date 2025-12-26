@@ -5352,6 +5352,61 @@
                     "voice": "WET."
                 },
                 {
+                    "variableName": "SLUSH",
+                    "text": "SLUSH",
+                    "voice": "SLUSH."
+                },
+                {
+                    "variableName": "DRY SNOW",
+                    "text": "DRY SNOW",
+                    "voice": "DRY SNOW."
+                },
+                {
+                    "variableName": "WET SNOW",
+                    "text": "WET SNOW",
+                    "voice": "WET SNOW."
+                },
+                {
+                    "variableName": "COMPACTED SNOW",
+                    "text": "COMPACTED SNOW",
+                    "voice": "COMPACTED SNOW."
+                },
+                {
+                    "variableName": "STANDING WATER",
+                    "text": "STANDING WATER",
+                    "voice": "STANDING WATER."
+                },
+                {
+                    "variableName": "ICE",
+                    "text": "ICE",
+                    "voice": "ICE."
+                },
+                {
+                    "variableName": "WET ICE",
+                    "text": "WET ICE",
+                    "voice": "WET ICE."
+                },
+                {
+                    "variableName": "WATER ON TOP OF COMPACTED SNOW",
+                    "text": "WATER ON TOP OF COMPACTED SNOW",
+                    "voice": "WATER ON TOP OF COMPACTED SNOW."
+                },
+                {
+                    "variableName": "DRY SNOW ON TOP OF ICE",
+                    "text": "DRY SNOW ON TOP OF ICE",
+                    "voice": "DRY SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "WET SNOW ON TOP OF ICE",
+                    "text": "WET SNOW ON TOP OF ICE",
+                    "voice": "WET SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "100",
+                    "text": "100",
+                    "voice": "ONE HUNDRED."
+                },
+                {
                     "variableName": "TREATED",
                     "text": "TREATED",
                     "voice": "TREATED."
