@@ -2705,7 +2705,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED @ILS_Z\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED @ILS_Z\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2715,7 +2715,7 @@
                     "name": "RWY 09",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED @ILS_Z\r\n@ACTIVE_09\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED @ILS_Z\r\n@ACTIVE_09\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2886,12 +2886,12 @@
             "airportConditionDefinitions": [
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "ordinal": 1,
+                    "ordinal": 0,
                     "enabled": false
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
-                    "ordinal": 2,
+                    "ordinal": 1,
                     "enabled": false
                 }
             ],
@@ -3358,7 +3358,7 @@
                     "name": "DEP/ARR 27L AND 27R",
                     "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS\r\n",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27R_AND_27L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27R_AND_27L_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3368,7 +3368,7 @@
                     "name": "DEP/ARR 09L AND 09R",
                     "airportConditions": "DEPENDENT PARALLEL APPROACHES IN PROGRESS\r\n",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09R_AND_09L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09R_AND_09L_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3378,7 +3378,7 @@
                     "name": "SINGLE 27L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27L_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3388,7 +3388,7 @@
                     "name": "SINGLE 27R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27R_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_27R_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3398,7 +3398,7 @@
                     "name": "SINGLE 09L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09L_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09L_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3408,7 +3408,7 @@
                     "name": "SINGLE 09R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09R_ACTIVE\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR @VECTORS\r\n@EDDV_09R_ACTIVE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3418,7 +3418,7 @@
                     "name": "DEP 09R ARR 09L (LVP Config)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @RWY09L\r\n@EDDV_09R_AND_09L_ACTIVE\r\nDEPARTURES EXPECT @RWY09R\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @RWY09L\r\n@EDDV_09R_AND_09L_ACTIVE\r\nDEPARTURES EXPECT @RWY09R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3428,7 +3428,7 @@
                     "name": "DEP 27L ARR 27R (LVP Config)",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @RWY27R\r\n@EDDV_27R_AND_27L_ACTIVE\r\nDEPARTURES EXPECT @RWY27L\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDV [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @RWY27R\r\n@EDDV_27R_AND_27L_ACTIVE\r\nDEPARTURES EXPECT @RWY27L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -3459,16 +3459,6 @@
                     "variableName": "LVP_WITH_GUIDED_TAKEOFF",
                     "text": "LOW VIS PROC IN OPERATION CAT III AND GUIDED TAKE-OFF AVBL",
                     "voice": " LOW-VISIBILITY PROCEDURES IN OPERATION, CAT THREE AND GUIDED TAKE-OFF AVAILABLE."
-                },
-                {
-                    "variableName": "DEPFREQ",
-                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR",
-                    "voice": "WHEN AIRBORNE CONTACT BREMEN RADAR"
-                },
-                {
-                    "variableName": "IFR_CLR",
-                    "text": "REQ IFR AND VFR CLR ON BREMEN RADAR ",
-                    "voice": "REQUEST IFR AND VFR CLEARANCE ON BREMEN RADAR"
                 },
                 {
                     "variableName": "EDDV_27R_AND_27L_ACTIVE",
@@ -3521,14 +3511,14 @@
                     "voice": "RUNWAY ^27L."
                 },
                 {
-                    "variableName": "ADV",
-                    "text": "WHEN AIRBORNE MONITOR ADVISORY",
-                    "voice": "WHEN AIRBORNE MONITOR ADVISORY"
+                    "variableName": "REQ",
+                    "text": "REQ",
+                    "voice": "REQUEST"
                 },
                 {
-                    "variableName": "COND",
-                    "text": "COND",
-                    "voice": "CONDITION."
+                    "variableName": "CLR",
+                    "text": "CLR",
+                    "voice": "CLEARANCE"
                 },
                 {
                     "variableName": "RWYCC",
@@ -3566,6 +3556,61 @@
                     "voice": "WET."
                 },
                 {
+                    "variableName": "SLUSH",
+                    "text": "SLUSH",
+                    "voice": "SLUSH."
+                },
+                {
+                    "variableName": "DRY SNOW",
+                    "text": "DRY SNOW",
+                    "voice": "DRY SNOW."
+                },
+                {
+                    "variableName": "WET SNOW",
+                    "text": "WET SNOW",
+                    "voice": "WET SNOW."
+                },
+                {
+                    "variableName": "COMPACTED SNOW",
+                    "text": "COMPACTED SNOW",
+                    "voice": "COMPACTED SNOW."
+                },
+                {
+                    "variableName": "STANDING WATER",
+                    "text": "STANDING WATER",
+                    "voice": "STANDING WATER."
+                },
+                {
+                    "variableName": "ICE",
+                    "text": "ICE",
+                    "voice": "ICE."
+                },
+                {
+                    "variableName": "WET ICE",
+                    "text": "WET ICE",
+                    "voice": "WET ICE."
+                },
+                {
+                    "variableName": "WATER ON TOP OF COMPACTED SNOW",
+                    "text": "WATER ON TOP OF COMPACTED SNOW",
+                    "voice": "WATER ON TOP OF COMPACTED SNOW."
+                },
+                {
+                    "variableName": "DRY SNOW ON TOP OF ICE",
+                    "text": "DRY SNOW ON TOP OF ICE",
+                    "voice": "DRY SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "WET SNOW ON TOP OF ICE",
+                    "text": "WET SNOW ON TOP OF ICE",
+                    "voice": "WET SNOW ON TOP OF ICE."
+                },
+                {
+                    "variableName": "100",
+                    "text": "100",
+                    "voice": "ONE HUNDRED"
+                },
+                {
                     "variableName": "TREATED",
                     "text": "TREATED",
                     "voice": "TREATED."
@@ -3573,90 +3618,85 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "REPORT PREFERRED RUNWAY ON INITIAL CONTACT",
+                    "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 0,
                     "enabled": false
                 },
                 {
-                    "text": "@LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "ordinal": 2,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVP_WITH_GUIDED_TAKEOFF",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^09L",
-                    "ordinal": 4,
-                    "enabled": false
-                },
-                {
-                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^27R",
-                    "ordinal": 5,
+                    "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
+                    "ordinal": 1,
                     "enabled": false
                 }
             ],
             "notamDefinitions": [
                 {
-                    "text": "@ADV 122.800",
+                    "text": "REPORT PREFERRED RUNWAY ON INITIAL CONTACT.",
+                    "ordinal": 0,
+                    "enabled": false
+                },
+                {
+                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^09L.",
                     "ordinal": 1,
+                    "enabled": false
+                },
+                {
+                    "text": "PREFERRED RUNWAY DUE TO NOISE ABATEMENT RWY ^27R.",
+                    "ordinal": 2,
+                    "enabled": false
+                }
+                {
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY.",
+                    "ordinal": 3,
                     "enabled": true
                 },
                 {
-                    "text": "@DEPFREQ 119.490",
-                    "ordinal": 2,
-                    "enabled": false
-                },
-                {
-                    "text": "@DEPFREQ 124.240",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@DEPFREQ 125.025",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 119.490.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 127.675",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 124.240.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "@DEPFREQ 133.725",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 125.025.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 119.490",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 127.675.",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 124.240",
+                    "text": "WHEN AIRBORNE CONTACT BREMEN RADAR 133.725.",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 125.025",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 119.490.",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 127.675",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 124.240.",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "@IFR_CLR 133.725",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 125.025.",
                     "ordinal": 11,
                     "enabled": false
                 },
                 {
-                    "text": "TO REQUEST MYSTERY DESTINATION CONTACT DELIVERY WITH REQUEST SHORT, MEDIUM OR LONG MYSTERY DESTINATION.",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 127.675.",
                     "ordinal": 12,
+                    "enabled": false
+                },
+                {
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 133.725.",
+                    "ordinal": 13,
                     "enabled": false
                 }
             ]
