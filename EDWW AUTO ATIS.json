@@ -558,6 +558,11 @@
                     "voice": "FOR RNP APPROACH."
                 },
                 {
+                    "variableName": "2000FT",
+                    "text": "2000FT",
+                    "voice": "TWO THOUSAND FEET"
+                },
+                {
                     "variableName": "ACTIVE_LDG15_TKOF33",
                     "text": "LDG 15 TKOF 33",
                     "voice": "RUNWAYS IN USE FOR LANDING ^15 AND TAKEOFF ^33."
@@ -677,37 +682,37 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "WHEN PASSING 2000 FT MONITOR ADVISORY.",
+                    "text": "WHEN PASSING 2000FT MONITOR ADVISORY.",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 120.540.",
+                    "text": "WHEN PASSING 2000FT CONTACT BREMEN RADAR 120.540.",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 134.255.",
+                    "text": "WHEN PASSING 2000FT CONTACT BREMEN RADAR 134.255.",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 126.325.",
+                    "text": "WHEN PASSING 2000FT CONTACT BREMEN RADAR 126.325.",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 125.855.",
+                    "text": "WHEN PASSING 2000FT CONTACT BREMEN RADAR 125.855.",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 127.675.",
+                    "text": "WHEN PASSING 2000FT CONTACT BREMEN RADAR 127.675.",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "WHEN PASSING 2000 FT CONTACT BREMEN RADAR 133.725.",
+                    "text": "WHEN PASSING 2000FT CONTACT BREMEN RADAR 133.725.",
                     "ordinal": 7,
                     "enabled": false
                 },
@@ -732,7 +737,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "REQ IFR OR VFR CLR ON BREMEN RADARR 133.725.",
+                    "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 133.725.",
                     "ordinal": 12,
                     "enabled": false
                 }
