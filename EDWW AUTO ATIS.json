@@ -5427,6 +5427,16 @@
                     "voice": "RUNWAY IN USE ^24R."
                 },
                 {
+                    "variableName": "VDGS",
+                    "text": "AT VATS.IM/VDGS",
+                    "voice": "AT VATS, DOT I M. SLASH VDGS."
+                },
+                {
+                    "variableName": "TOBT",
+                    "text": "TOBT",
+                    "voice": "TARGET OFF-BLOCK TIME"
+                },
+                {
                     "variableName": "COND",
                     "text": "COND",
                     "voice": "CONDITION."
@@ -5553,12 +5563,17 @@
                 {
                     "text": "AFTER VACATING RWY ^06R AND ^06L REMAIN ON FREQUENCY",
                     "ordinal": 3,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "AFTER VACATING RWY ^06L CONTACT GROUND FREQUENCY 129.505, AFTER VACATING RUNWAY ^06R CONTACT GROUND FREQUENCY 121.705",
                     "ordinal": 4,
-                    "enabled": true
+                    "enabled": false
+                },
+                {
+                    "text": "\r\nALL DEPARTURES SHALL SUBMIT THEIR TOBT @VDGS.",
+                    "ordinal": 5,
+                    "enabled": false
                 }
             ]
         },
