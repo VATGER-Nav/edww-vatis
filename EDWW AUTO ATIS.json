@@ -568,6 +568,16 @@
                     "voice": "RUNWAYS IN USE FOR LANDING ^15 AND TAKEOFF ^33."
                 },
                 {
+                    "variableName": "VDGS",
+                    "text": "AT VATS.IM/VDGS",
+                    "voice": "AT VATS, DOT I M. SLASH VDGS."
+                },
+                {
+                    "variableName": "TOBT",
+                    "text": "TOBT",
+                    "voice": "TARGET OFF-BLOCK TIME"
+                },
+                {
                     "variableName": "COND",
                     "text": "COND",
                     "voice": "CONDITION."
@@ -739,6 +749,11 @@
                 {
                     "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 133.725.",
                     "ordinal": 12,
+                    "enabled": false
+                },
+                {
+                    "text": "\r\nA-CDM IN USE. ALL DEPARTURES SHALL SUBMIT THEIR TOBT @VDGS.",
+                    "ordinal": 13,
                     "enabled": false
                 }
             ]
