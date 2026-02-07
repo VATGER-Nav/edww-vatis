@@ -673,6 +673,11 @@
                     "voice": "ONE HUNDRED"
                 },
                 {
+                    "variableName": "BA",
+                    "text": "BA",
+                    "voice": "BRAKING ACTION"
+                },
+                {
                     "variableName": "TREATED",
                     "text": "TREATED",
                     "voice": "TREATED."
@@ -2938,6 +2943,11 @@
                     "voice": "ONE HUNDRED"
                 },
                 {
+                    "variableName": "BA",
+                    "text": "BA",
+                    "voice": "BRAKING ACTION"
+                },
+                {
                     "variableName": "TREATED",
                     "text": "TREATED",
                     "voice": "TREATED."
@@ -3674,6 +3684,11 @@
                     "variableName": "100",
                     "text": "100",
                     "voice": "ONE HUNDRED"
+                },
+                {
+                    "variableName": "BA",
+                    "text": "BA",
+                    "voice": "BRAKING ACTION"
                 },
                 {
                     "variableName": "TREATED",
@@ -5545,6 +5560,11 @@
                     "variableName": "100",
                     "text": "100",
                     "voice": "ONE HUNDRED"
+                },
+                {
+                    "variableName": "BA",
+                    "text": "BA",
+                    "voice": "BRAKING ACTION"
                 },
                 {
                     "variableName": "TREATED",
