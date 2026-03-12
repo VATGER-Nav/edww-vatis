@@ -5586,22 +5586,22 @@
             ],
             "notamDefinitions": [
                 {
-                    "text": "AFTER VACATING RWY ^24R AND ^24L REMAIN ON FREQ",
+                    "text": "AFTER VACATING RWY ^24R OR ^24L REMAIN ON FREQ",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "AFTER VACATING RWY ^24R CTC GND NORTH FREQ 129.505, AFTER VACATING RUNWAY ^24L CTC GND SOUTH FREQ 121.705",
+                    "text": "AFTER VACATING RWY ^24R CTC GND NORTH FREQ 129.505, AFTER VACATING RWY ^24L CTC GND SOUTH FREQ 121.705",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "AFTER VACATING RWY ^06R AND ^06L REMAIN ON FREQ",
+                    "text": "AFTER VACATING RWY ^06R OR ^06L REMAIN ON FREQ",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "AFTER VACATING RWY ^06L CTC GND NORTH FREQ 129.505, AFTER VACATING RUNWAY ^06R CTC GND SOUTH FREQ 121.705",
+                    "text": "AFTER VACATING RWY ^06L CTC GND NORTH FREQ 129.505, AFTER VACATING RWY ^06R CTC GND SOUTH FREQ 121.705",
                     "ordinal": 4,
                     "enabled": false
                 },
