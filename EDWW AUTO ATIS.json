@@ -2848,6 +2848,16 @@
                     "voice": "VOR APPROACH."
                 },
                 {
+                    "variableName": "VDGS",
+                    "text": "AT VATS.IM/VDGS",
+                    "voice": "AT VATS, DOT I M. SLASH VDGS."
+                },
+                {
+                    "variableName": "TOBT",
+                    "text": "TOBT",
+                    "voice": "TARGET OFF-BLOCK TIME"
+                },
+                {
                     "variableName": "COND",
                     "text": "COND",
                     "voice": "CONDITION."
@@ -3034,6 +3044,11 @@
                 {
                     "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 133.725.",
                     "ordinal": 14,
+                    "enabled": false
+                },
+                {
+                    "text": "\r\nA-CDM IN USE. ALL DEPARTURES SHALL SUBMIT THEIR TOBT @VDGS.",
+                    "ordinal": 15,
                     "enabled": false
                 }
             ]
@@ -3581,6 +3596,16 @@
                     "voice": "RUNWAY ^27L."
                 },
                 {
+                    "variableName": "VDGS",
+                    "text": "AT VATS.IM/VDGS",
+                    "voice": "AT VATS, DOT I M. SLASH VDGS."
+                },
+                {
+                    "variableName": "TOBT",
+                    "text": "TOBT",
+                    "voice": "TARGET OFF-BLOCK TIME"
+                },
+                {
                     "variableName": "REQ",
                     "text": "REQ",
                     "voice": "REQUEST"
@@ -3782,6 +3807,11 @@
                 {
                     "text": "REQ IFR OR VFR CLR ON BREMEN RADAR 133.725.",
                     "ordinal": 13,
+                    "enabled": false
+                },
+                {
+                    "text": "\r\nA-CDM IN USE. ALL DEPARTURES SHALL SUBMIT THEIR TOBT @VDGS.",
+                    "ordinal": 14,
                     "enabled": false
                 }
             ]
