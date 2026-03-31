@@ -443,7 +443,7 @@
                     "name": "SINGLE 33",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @ILS\r\n@ACTIVE_33_SINGLE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDH [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS @RNP\r\n@ACTIVE_33_SINGLE\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
