@@ -2770,7 +2770,7 @@
                     "name": "RWY 27",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @RNP\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORED @ILS_Z\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
