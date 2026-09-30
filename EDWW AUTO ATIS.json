@@ -2767,20 +2767,20 @@
             "presets": [
                 {
                     "id": "21f3d4ec-296d-4f8f-8985-7e69823a1e49",
-                    "name": "RWY 27",
+                    "name": "RWY 26",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
                 },
                 {
                     "id": "f57f34cc-d164-4baa-a31e-ab8a23192684",
-                    "name": "RWY 09",
+                    "name": "RWY 08",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_09\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2818,14 +2818,14 @@
                     "voice": "CLEARANCE"
                 },
                 {
-                    "variableName": "ACTIVE_27",
-                    "text": "RWY 27",
-                    "voice": "RUNWAY IN USE ^27."
+                    "variableName": "ACTIVE_26",
+                    "text": "RWY 26",
+                    "voice": "RUNWAY IN USE ^26."
                 },
                 {
-                    "variableName": "ACTIVE_09",
-                    "text": "RWY 09",
-                    "voice": "RUNWAY IN USE ^09."
+                    "variableName": "ACTIVE_08",
+                    "text": "RWY 08",
+                    "voice": "RUNWAY IN USE ^08."
                 },
                 {
                     "variableName": "ILS",
