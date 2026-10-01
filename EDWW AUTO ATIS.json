@@ -2767,7 +2767,7 @@
             "presets": [
                 {
                     "id": "21f3d4ec-296d-4f8f-8985-7e69823a1e49",
-                    "name": "RWY 27",
+                    "name": "RWY 26",
                     "airportConditions": "",
                     "notams": "",
                     "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
@@ -2777,7 +2777,7 @@
                 },
                 {
                     "id": "f57f34cc-d164-4baa-a31e-ab8a23192684",
-                    "name": "RWY 09",
+                    "name": "RWY 08",
                     "airportConditions": "",
                     "notams": "",
                     "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
