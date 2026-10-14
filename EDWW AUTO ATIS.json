@@ -2770,7 +2770,7 @@
                     "name": "RWY 26",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS_Z\r\n@ACTIVE_26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2780,7 +2780,7 @@
                     "name": "RWY 08",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS\r\n@ACTIVE_08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDW [ATIS_CODE] [TIME]\r\nEXPECT @ILS_Z\r\n@ACTIVE_08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -2828,9 +2828,9 @@
                     "voice": "RUNWAY IN USE ^08."
                 },
                 {
-                    "variableName": "ILS",
-                    "text": "ILS APCH",
-                    "voice": "ILS APPROACH."
+                    "variableName": "ILS_Z",
+                    "text": "ILS Z APCH",
+                    "voice": "ILS ZULU APPROACH."
                 },
                 {
                     "variableName": "RNP",
