@@ -1214,16 +1214,6 @@
                     "variableName": "NDB",
                     "text": "NDB APCH",
                     "voice": "FOR NDB APPROACH."
-                },
-                {
-                    "variableName": "LVTO_07",
-                    "text": "LOW VIS TAKEOFF PROC RWY 07 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 07 IN OPERATION."
-                },
-                {
-                    "variableName": "LVTO_25",
-                    "text": "LOW VIS TAKEOFF PROC RWY 25 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 25 IN OPERATION."
                 }
             ],
             "airportConditionDefinitions": [
@@ -1245,16 +1235,6 @@
                 {
                     "text": "@LVP",
                     "ordinal": 4,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVTO_07",
-                    "ordinal": 5,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVTO_25",
-                    "ordinal": 6,
                     "enabled": false
                 }
             ],
@@ -1764,16 +1744,6 @@
                     "variableName": "RNP",
                     "text": "RNP APCH",
                     "voice": "FOR RNP APPROACH."
-                },
-                {
-                    "variableName": "LVTO_05",
-                    "text": "LOW VIS TAKEOFF PROC RWY 05 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 05 IN OPERATION."
-                },
-                {
-                    "variableName": "LVTO_23",
-                    "text": "LOW VIS TAKEOFF PROC RWY 23 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 23 IN OPERATION."
                 }
             ],
             "airportConditionDefinitions": [
@@ -1790,16 +1760,6 @@
                 {
                     "text": "@LVP",
                     "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVTO_05",
-                    "ordinal": 4,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVTO_23",
-                    "ordinal": 5,
                     "enabled": false
                 }
             ],
@@ -2299,28 +2259,6 @@
                     "variableName": "ACTIVE_14",
                     "text": "RWY 14",
                     "voice": "RUNWAY ^14 IN USE."
-                },
-                {
-                    "variableName": "LVTO_14",
-                    "text": "LOW VIS TAKEOFF PROC RWY 14 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 14 IN OPERATION."
-                },
-                {
-                    "variableName": "LVTO_32",
-                    "text": "LOW VIS TAKEOFF PROC RWY 32 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 32 IN OPERATION."
-                }
-            ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "@LVTO_14",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVTO_32",
-                    "ordinal": 4,
-                    "enabled": false
                 }
             ],
             "notamDefinitions": [
@@ -4271,14 +4209,9 @@
                     "voice": "NDB APPROACH."
                 },
                 {
-                    "variableName": "LVTO_08",
-                    "text": "LOW VIS TAKEOFF PROC RWY 08 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 08 IN OPERATION."
-                },
-                {
-                    "variableName": "LVTO_26",
-                    "text": "LOW VIS TAKEOFF PROC RWY 26 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 26 IN OPERATION."
+                    "variableName": "LVTO",
+                    "text": "LOW VIS TAKEOFF PROC IN OPERATION",
+                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES IN OPERATION."
                 }
             ],
             "airportConditionDefinitions": [
@@ -4298,13 +4231,8 @@
                     "enabled": false
                 },
                 {
-                    "text": "@LVTO_08",
+                    "text": "@LVTO",
                     "ordinal": 4,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVTO_26",
-                    "ordinal": 5,
                     "enabled": false
                 }
             ],
