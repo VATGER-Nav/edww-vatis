@@ -686,13 +686,15 @@
             "airportConditionDefinitions": [
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "ordinal": 1,
-                    "enabled": false
+                    "ordinal": 0,
+                    "weatherCondition": "(ceiling < 200ft AND rvr > 125m) OR (rvr <= 600m AND rvr > 125m)",
+                    "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
-                    "ordinal": 2,
-                    "enabled": false
+                    "ordinal": 1,
+                    "weatherCondition": "rvr <= 125m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -1235,7 +1237,8 @@
                 {
                     "text": "@LVP",
                     "ordinal": 4,
-                    "enabled": false
+                    "weatherCondition": "ceiling < 200ft OR rvr <= 600m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -1760,7 +1763,8 @@
                 {
                     "text": "@LVP",
                     "ordinal": 3,
-                    "enabled": false
+                    "weatherCondition": "ceiling < 200ft OR rvr <= 600m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -2900,19 +2904,22 @@
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 0,
-                    "enabled": false
+                    "weatherCondition": "(ceiling < 200ft AND rvr > 125m) OR (rvr <= 600m AND rvr > 125m)",
+                    "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 1,
-                    "enabled": false
+                    "weatherCondition": "rvr <= 125m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
                 {
                     "text": "FOR START UP AND TAXI CONTACT GROUND CONTROL ON 121.755.",
                     "ordinal": 1,
-                    "enabled": false
+                    "onlineCondition": "EDDW_*GND",
+                    "enabled": true
                 },
                 {
                     "text": "WHEN AIRBORNE MONITOR ADVISORY.",
@@ -3663,12 +3670,14 @@
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 1,
-                    "enabled": false
+                    "weatherCondition": "(ceiling < 200ft AND rvr > 125m) OR (rvr <= 600m AND rvr > 125m)",
+                    "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 2,
-                    "enabled": false
+                    "weatherCondition": "rvr <= 125m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -4233,7 +4242,8 @@
                 {
                     "text": "@LVTO",
                     "ordinal": 4,
-                    "enabled": false
+                    "weatherCondition": "ceiling < 200ft OR rvr <= 600m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -4774,7 +4784,8 @@
                 {
                     "text": "@LVP",
                     "ordinal": 3,
-                    "enabled": false
+                    "weatherCondition": "ceiling < 200ft OR rvr <= 600m",
+                    "enabled": true
                 },
                 {
                     "text": "@LVTO_09",
@@ -5528,13 +5539,15 @@
             "airportConditionDefinitions": [
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
-                    "ordinal": 1,
-                    "enabled": false
+                    "ordinal": 0,
+                    "weatherCondition": "(ceiling < 200ft AND rvr > 125m) OR (rvr <= 600m AND rvr > 125m)",
+                    "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
-                    "ordinal": 2,
-                    "enabled": false
+                    "ordinal": 1,
+                    "weatherCondition": "rvr <= 125m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -5963,30 +5976,9 @@
                     "variableName": "ETNL",
                     "text": "ATIS ETNL",
                     "voice": "THIS IS ROSTOCK-LAAR GEH AIRPORT INFORMATION"
-                },
-                {
-                    "variableName": "LVTO_09",
-                    "text": "LOW VIS TAKEOFF PROC RWY 09 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 09 IN OPERATION."
-                },
-                {
-                    "variableName": "LVTO_27",
-                    "text": "LOW VIS TAKEOFF PROC RWY 27 IN OPERATION",
-                    "voice": "LOW VISIBILITY TAKE-OFF PROCEDURES RUNWAY 27 IN OPERATION."
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "@LVTO_09",
-                    "ordinal": 1,
-                    "enabled": false
-                },
-                {
-                    "text": "@LVTO_27",
-                    "ordinal": 2,
-                    "enabled": false
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": []
         }
     ]
