@@ -2140,7 +2140,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTORPASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -4066,7 +4066,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTORPASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -4612,7 +4612,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTORPASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
