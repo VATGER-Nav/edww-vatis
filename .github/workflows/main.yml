@@ -15,12 +15,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
-          python-version: 3.13.5
+          python-version: 3.15.2
 
       - name: Run Serial Update Script
         run: python .github/workflows/serial.py
