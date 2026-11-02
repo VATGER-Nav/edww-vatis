@@ -1163,6 +1163,15 @@
                     "externalGenerator": {
                         "enabled": false
                     }
+                },
+                {
+                    "id": "ccabb661-fa5e-4a64-ba4d-ea2476fce935",
+                    "name": "ARR 25 - DEP 07",
+                    "airportConditions": "",
+                    "template": "@EDHL [ATIS_CODE] [TIME]\r\nEXPECT RADAR VECTORS [ARPT_COND]\r\n@ACTIVE_LDG25_TKOF07\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
                 }
             ],
             "contractions": [
@@ -1200,6 +1209,11 @@
                     "variableName": "ACTIVE_07",
                     "text": "RWY 07",
                     "voice": "RUNWAY IN USE 07"
+                },
+                {
+                    "variableName": "ACTIVE_LDG25_TKOF07",
+                    "text": "LDG 25 TKOF 07",
+                    "voice": "RUNWAYS IN USE FOR LANDING ^25 AND TAKEOFF ^07"
                 },
                 {
                     "variableName": "ILS",
