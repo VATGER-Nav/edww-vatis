@@ -3,7 +3,7 @@
     "name": "EDWW ATIS 06 Nov 2026",
     "id": "0f60728d-87e0-4aea-addb-f3c8ebbf3ac7",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edww-vatis/refs/heads/main/EDWW%20AUTO%20ATIS.json",
-    "updateSerial": 2026110601,
+    "updateSerial": 2026110602,
     "stations": [
         {
             "id": "3bbcc80d-7137-41e8-a527-8f2ae8b4c590",
@@ -5593,17 +5593,17 @@
                     "ordinal": 2,
                     "enabled": false
                 },
-                 {
+                {
                     "text": "\r\n@LVP_ONLY_06L",
                     "ordinal": 3,
                     "enabled": false
                 },
-                 {
+                {
                     "text": "\r\n@LVP_ONLY_24R",
                     "ordinal": 4,
                     "enabled": false
                 },
-                 {
+                {
                     "text": "\r\n@LVP_ONLY_24L",
                     "ordinal": 5,
                     "enabled": false
