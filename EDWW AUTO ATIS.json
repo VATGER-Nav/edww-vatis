@@ -5279,7 +5279,7 @@
                 {
                     "id": "86218b1a-f5e7-4fcb-8309-2765f220fe39",
                     "name": "DROPS ARR 06R DEP 06L",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY06R\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\nDEPARTURES EXPECT @RWY06L\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY06R\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\nDUE TO WX ALL DEPARTURES EXPECT @RWY06L\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5289,7 +5289,7 @@
                     "name": "DROPS ARR 06L DEP 06R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY06L\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\nDEPARTURES EXPECT @RWY06R\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY06L\r\n@ACTIVE_06R_06L\r\n[ARPT_COND]\r\nDUE TO WX ALL DEPARTURES EXPECT @RWY06R\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5299,7 +5299,7 @@
                     "name": "DROPS ARR 24R DEP 24L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY24R\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nDEPARTURES EXPECT @RWY24L\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY24R\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nDUE TO WX ALL DEPARTURES EXPECT @RWY24L\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5307,7 +5307,7 @@
                 {
                     "id": "cbb8f8c7-3f89-48b2-9fb8-031aacb46bb0",
                     "name": "DROPS ARR 24L DEP 24R",
-                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY24L\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nDEPARTURES EXPECT @RWY24R\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
+                    "template": "@EDDB [ATIS_CODE] [TIME]\r\nEXPECT @ILSZ @RWY24L\r\n@ACTIVE_24R_24L\r\n[ARPT_COND]\r\nDUE TO WX ALL DEPARTURES EXPECT @RWY24R\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n@TRND [TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -5375,6 +5375,26 @@
                     "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY THREE AND GUIDED TAKE-OFF AVAILABLE."
                 },
                 {
+                    "variableName": "LVP_ONLY_06R",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL FOR RWY 06R, CAT I AVBL FOR RWY 06L",
+                    "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY TWO AND THREE AVAILABLE FOR RUNWAY 06R, CATEGORY ONE AVAILABLE FOR RUNWAY 06L."
+                },
+                {
+                    "variableName": "LVP_ONLY_06L",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL FOR RWY 06L, CAT I AVBL FOR RWY 06R",
+                    "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY TWO AND THREE AVAILABLE FOR RUNWAY 06R, CATEGORY ONE AVAILABLE FOR RUNWAY 06L."
+                },
+                {
+                    "variableName": "LVP_ONLY_24R",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL FOR RWY 24R, CAT I AVBL FOR RWY 24L",
+                    "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY TWO AND THREE AVAILABLE FOR RUNWAY 24R, CATEGORY ONE AVAILABLE FOR RUNWAY 24L."
+                },
+                {
+                    "variableName": "LVP_ONLY_24L",
+                    "text": "LOW VIS PROC IN OPERATION CAT II AND III AVBL FOR RWY 24L, CAT I AVBL FOR RWY 24R",
+                    "voice": "LOW-VISIBILITY PROCEDURES IN OPERATION, CATEGORY TWO AND THREE AVAILABLE FOR RUNWAY 24L, CATEGORY ONE AVAILABLE FOR RUNWAY 24R."
+                },
+                {
                     "variableName": "RWY06R",
                     "text": "RWY 06R",
                     "voice": "RWY ^06R."
@@ -5433,6 +5453,11 @@
                     "variableName": "ACTIVE_24R",
                     "text": "RWY 24R",
                     "voice": "RUNWAY IN USE ^24R."
+                },
+                {
+                    "variableName": "WX",
+                    "text": "WX",
+                    "voice": "WEATHER,"
                 },
                 {
                     "variableName": "VDGS",
@@ -5562,6 +5587,26 @@
                     "ordinal": 1,
                     "weatherCondition": "rvr <= 125 m",
                     "enabled": true
+                },
+                {
+                    "text": "\r\n@LVP_ONLY_06R",
+                    "ordinal": 2,
+                    "enabled": false
+                },
+                 {
+                    "text": "\r\n@LVP_ONLY_06L",
+                    "ordinal": 3,
+                    "enabled": false
+                },
+                 {
+                    "text": "\r\n@LVP_ONLY_24R",
+                    "ordinal": 4,
+                    "enabled": false
+                },
+                 {
+                    "text": "\r\n@LVP_ONLY_24L",
+                    "ordinal": 5,
+                    "enabled": false
                 }
             ],
             "notamDefinitions": [
