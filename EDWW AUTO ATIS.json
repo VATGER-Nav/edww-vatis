@@ -687,13 +687,14 @@
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 0,
-                    "weatherCondition": "ceiling < 200ft  OR rvr <= 600m ",
+                    "weatherCondition": "(ceiling < 200ft OR rvr <= 600m) AND rvr > 125 m",
                     "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 1,
-                    "enabled": false
+                    "weatherCondition": "rvr <= 125 m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -2917,13 +2918,14 @@
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 0,
-                    "weatherCondition": "ceiling < 200ft  OR rvr <= 600m ",
+                    "weatherCondition": "(ceiling < 200ft OR rvr <= 600m) AND rvr > 125 m",
                     "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 1,
-                    "enabled": false
+                    "weatherCondition": "rvr <= 125 m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -3682,13 +3684,14 @@
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 1,
-                    "weatherCondition": "ceiling < 200ft  OR rvr <= 600m ",
+                    "weatherCondition": "(ceiling < 200ft OR rvr <= 600m) AND rvr > 125 m",
                     "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 2,
-                    "enabled": false
+                    "weatherCondition": "rvr <= 125 m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
@@ -5551,13 +5554,14 @@
                 {
                     "text": "\r\n@LVP_WITHOUT_GUIDED_TAKEOFF",
                     "ordinal": 0,
-                    "weatherCondition": "ceiling < 200ft  OR rvr <= 600m ",
+                    "weatherCondition": "(ceiling < 200ft OR rvr <= 600m) AND rvr > 125 m",
                     "enabled": true
                 },
                 {
                     "text": "\r\n@LVP_WITH_GUIDED_TAKEOFF",
                     "ordinal": 1,
-                    "enabled": false
+                    "weatherCondition": "rvr <= 125 m",
+                    "enabled": true
                 }
             ],
             "notamDefinitions": [
