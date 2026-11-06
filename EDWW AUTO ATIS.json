@@ -6021,10 +6021,20 @@
             "presets": [
                 {
                     "id": "5d82d8a8-79c3-4e03-a578-050466e2c567",
-                    "name": "ANY RWY",
+                    "name": "RWY 09",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "@ETNL [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "template": "@ETNL [ATIS_CODE] [TIME]\r\n@ACTIVE_09\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
+                    "externalGenerator": {
+                        "enabled": false
+                    }
+                },
+                {
+                    "id": "5d82d8a8-79c3-4e03-a578-050466e2c568",
+                    "name": "RWY 27",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "@ETNL [ATIS_CODE] [TIME]\r\n@ACTIVE_27\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[TL]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[RECENT_WX]\r\n[TREND]",
                     "externalGenerator": {
                         "enabled": false
                     }
@@ -6035,6 +6045,16 @@
                     "variableName": "ETNL",
                     "text": "ATIS ETNL",
                     "voice": "THIS IS ROSTOCK-LAAR GEH AIRPORT INFORMATION"
+                },
+                {
+                    "variableName": "ACTIVE_09",
+                    "text": "RWY 09",
+                    "voice": "RUNWAY IN USE ^09."
+                },
+                {
+                    "variableName": "ACTIVE_27",
+                    "text": "RWY 27",
+                    "voice": "RUNWAY IN USE ^27."
                 }
             ],
             "airportConditionDefinitions": [],
